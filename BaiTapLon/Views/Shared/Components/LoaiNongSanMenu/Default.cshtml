@@ -1,0 +1,7 @@
+﻿@model IEnumerable<baitaplon.Models.LoaiNongSan>
+<ul class="dropdown-menu">
+    @foreach(var item in Model)
+    {
+        <li><a asp-controller="Home" asp-action="NongSanTheoLoai" asp-route-maloai ="@item.MaLoai">@item.TenLoai</a></li>
+    }
+</ul>

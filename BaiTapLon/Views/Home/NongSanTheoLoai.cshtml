@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@* @model List<NongSan> *@ 
+@using X.PagedList.Mvc.Core;
+@model X.PagedList.IPagedList<NongSan>;
+<p>Số lượng sản phẩm: @ViewBag.RecordCount</p>
+@foreach (var item in Model)
+{
+    @await Html.PartialAsync("pView",item);
+}
+@Html.PagedListPager(Model , page => Url.Action("Index",new{page=page}))
+

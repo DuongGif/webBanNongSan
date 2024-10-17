@@ -1,0 +1,913 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\baitaplon.bundle.scp.css",
+      "PackagePath": "staticwebassets\\baitaplon.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\css\\all.css",
+      "PackagePath": "staticwebassets\\Btl\\css\\all.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\css\\animate.css",
+      "PackagePath": "staticwebassets\\Btl\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\css\\baguetteBox.min.css",
+      "PackagePath": "staticwebassets\\Btl\\css\\baguetteBox.min.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\css\\bootsnav.css",
+      "PackagePath": "staticwebassets\\Btl\\css\\bootsnav.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\css\\bootstrap-select.css",
+      "PackagePath": "staticwebassets\\Btl\\css\\bootstrap-select.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Btl\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\css\\carousel-ticker.css",
+      "PackagePath": "staticwebassets\\Btl\\css\\carousel-ticker.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\css\\code_animate.css",
+      "PackagePath": "staticwebassets\\Btl\\css\\code_animate.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\css\\custom.css",
+      "PackagePath": "staticwebassets\\Btl\\css\\custom.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\Btl\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Btl\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\Btl\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\css\\style.css",
+      "PackagePath": "staticwebassets\\Btl\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\css\\superslides.css",
+      "PackagePath": "staticwebassets\\Btl\\css\\superslides.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\about-img.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\about-img.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\add-img-01.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\add-img-01.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\add-img-02.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\add-img-02.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\all-bg-title.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\all-bg-title.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\Btl\\images\\apple-touch-icon.png"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\banner-01.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\banner-01.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\banner-02.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\banner-02.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\banner-03.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\banner-03.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\big-img-01.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\big-img-01.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\big-img-02.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\big-img-02.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\big-img-03.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\big-img-03.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\blog-img-01.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\blog-img-01.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\blog-img-02.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\blog-img-02.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\blog-img.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\blog-img.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\categories_img_01.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\categories_img_01.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\categories_img_02.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\categories_img_02.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\categories_img_03.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\categories_img_03.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\contact-bg.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\contact-bg.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\Btl\\images\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\gallery-img-01.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\gallery-img-01.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\gallery-img-02.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\gallery-img-02.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\gallery-img-03.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\gallery-img-03.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\gallery-img-04.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\gallery-img-04.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\gallery-img-05.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\gallery-img-05.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\gallery-img-06.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\gallery-img-06.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\gallery-img-07.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\gallery-img-07.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\gallery-img-08.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\gallery-img-08.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\gallery-img-09.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\gallery-img-09.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\gallery-img-10.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\gallery-img-10.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\gallery-img-11.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\gallery-img-11.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\gallery-img-12.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\gallery-img-12.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\img-1.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\img-1.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\img-2.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\img-2.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\img-3.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\img-3.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\img-pro-01.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\img-pro-01.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\img-pro-02.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\img-pro-02.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\img-pro-03.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\img-pro-03.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\img-pro-04.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\img-pro-04.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\ins-bg.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\ins-bg.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\instagram-img-01.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\instagram-img-01.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\instagram-img-02.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\instagram-img-02.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\instagram-img-03.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\instagram-img-03.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\instagram-img-04.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\instagram-img-04.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\instagram-img-05.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\instagram-img-05.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\instagram-img-06.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\instagram-img-06.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\instagram-img-07.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\instagram-img-07.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\instagram-img-08.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\instagram-img-08.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\instagram-img-09.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\instagram-img-09.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\logo.png",
+      "PackagePath": "staticwebassets\\Btl\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\payment-icon\\1.png",
+      "PackagePath": "staticwebassets\\Btl\\images\\payment-icon\\1.png"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\payment-icon\\2.png",
+      "PackagePath": "staticwebassets\\Btl\\images\\payment-icon\\2.png"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\payment-icon\\3.png",
+      "PackagePath": "staticwebassets\\Btl\\images\\payment-icon\\3.png"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\payment-icon\\4.png",
+      "PackagePath": "staticwebassets\\Btl\\images\\payment-icon\\4.png"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\payment-icon\\5.png",
+      "PackagePath": "staticwebassets\\Btl\\images\\payment-icon\\5.png"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\payment-icon\\6.png",
+      "PackagePath": "staticwebassets\\Btl\\images\\payment-icon\\6.png"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\payment-icon\\7.png",
+      "PackagePath": "staticwebassets\\Btl\\images\\payment-icon\\7.png"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\smp-img-01.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\smp-img-01.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\smp-img-02.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\smp-img-02.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\images\\smp-img-03.jpg",
+      "PackagePath": "staticwebassets\\Btl\\images\\smp-img-03.jpg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\js\\baguetteBox.min.js",
+      "PackagePath": "staticwebassets\\Btl\\js\\baguetteBox.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\js\\bootsnav.js",
+      "PackagePath": "staticwebassets\\Btl\\js\\bootsnav.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\js\\bootstrap-select.js",
+      "PackagePath": "staticwebassets\\Btl\\js\\bootstrap-select.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Btl\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\js\\contact-form-script.js",
+      "PackagePath": "staticwebassets\\Btl\\js\\contact-form-script.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\js\\custom.js",
+      "PackagePath": "staticwebassets\\Btl\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\js\\form-validator.min.js",
+      "PackagePath": "staticwebassets\\Btl\\js\\form-validator.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\js\\images-loded.min.js",
+      "PackagePath": "staticwebassets\\Btl\\js\\images-loded.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\js\\inewsticker.js",
+      "PackagePath": "staticwebassets\\Btl\\js\\inewsticker.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\js\\isotope.min.js",
+      "PackagePath": "staticwebassets\\Btl\\js\\isotope.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\js\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\Btl\\js\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\js\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\Btl\\js\\jquery-ui.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\js\\jquery.nicescroll.min.js",
+      "PackagePath": "staticwebassets\\Btl\\js\\jquery.nicescroll.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\js\\jquery.superslides.min.js",
+      "PackagePath": "staticwebassets\\Btl\\js\\jquery.superslides.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Btl\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\Btl\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\php\\form-process.php",
+      "PackagePath": "staticwebassets\\Btl\\php\\form-process.php"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\Btl\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\Btl\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\Btl\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\Btl\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\Btl\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\Btl\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\Btl\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\Btl\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\Btl\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\Btl\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\Btl\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\Btl\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\Btl\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\Btl\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\Btl\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\Btl\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\banhchung.jpeg",
+      "PackagePath": "staticwebassets\\img\\banhchung.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\banhmi.jpeg",
+      "PackagePath": "staticwebassets\\img\\banhmi.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\bapcai.jpeg",
+      "PackagePath": "staticwebassets\\img\\bapcai.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\bapngo.jpeg",
+      "PackagePath": "staticwebassets\\img\\bapngo.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\bido.jpeg",
+      "PackagePath": "staticwebassets\\img\\bido.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\bixanh.jpeg",
+      "PackagePath": "staticwebassets\\img\\bixanh.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\botmi.jpeg",
+      "PackagePath": "staticwebassets\\img\\botmi.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\buoi.jpeg",
+      "PackagePath": "staticwebassets\\img\\buoi.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\cachua.jpeg",
+      "PackagePath": "staticwebassets\\img\\cachua.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\cachuabi.jpeg",
+      "PackagePath": "staticwebassets\\img\\cachuabi.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\cahoi.jpeg",
+      "PackagePath": "staticwebassets\\img\\cahoi.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\carot.jpeg",
+      "PackagePath": "staticwebassets\\img\\carot.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\carotvang.jpeg",
+      "PackagePath": "staticwebassets\\img\\carotvang.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\catim.jpeg",
+      "PackagePath": "staticwebassets\\img\\catim.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\chalua.jpeg",
+      "PackagePath": "staticwebassets\\img\\chalua.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\cucaitrang.jpeg",
+      "PackagePath": "staticwebassets\\img\\cucaitrang.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\cuhanh.jpeg",
+      "PackagePath": "staticwebassets\\img\\cuhanh.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\dauden.jpeg",
+      "PackagePath": "staticwebassets\\img\\dauden.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\dauxanh.jpeg",
+      "PackagePath": "staticwebassets\\img\\dauxanh.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\dua.jpeg",
+      "PackagePath": "staticwebassets\\img\\dua.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\duahau.jpeg",
+      "PackagePath": "staticwebassets\\img\\duahau.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\dudu.jpeg",
+      "PackagePath": "staticwebassets\\img\\dudu.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\gao.jpeg",
+      "PackagePath": "staticwebassets\\img\\gao.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\gung.jpeg",
+      "PackagePath": "staticwebassets\\img\\gung.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\hanh.jpeg",
+      "PackagePath": "staticwebassets\\img\\hanh.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\hanhtim.jpeg",
+      "PackagePath": "staticwebassets\\img\\hanhtim.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\khoailangvang.jpeg",
+      "PackagePath": "staticwebassets\\img\\khoailangvang.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\khoaimi.jpeg",
+      "PackagePath": "staticwebassets\\img\\khoaimi.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\khoaitaytim.jpeg",
+      "PackagePath": "staticwebassets\\img\\khoaitaytim.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\muoi.jpeg",
+      "PackagePath": "staticwebassets\\img\\muoi.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\muopdang.jpeg",
+      "PackagePath": "staticwebassets\\img\\muopdang.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\ngo.jpeg",
+      "PackagePath": "staticwebassets\\img\\ngo.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\nho.jpeg",
+      "PackagePath": "staticwebassets\\img\\nho.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\nhoxanh.jpeg",
+      "PackagePath": "staticwebassets\\img\\nhoxanh.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\quabuoi.jpeg",
+      "PackagePath": "staticwebassets\\img\\quabuoi.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\quatao.jpeg",
+      "PackagePath": "staticwebassets\\img\\quatao.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\quyt.jpeg",
+      "PackagePath": "staticwebassets\\img\\quyt.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\rauden.jpeg",
+      "PackagePath": "staticwebassets\\img\\rauden.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\raudiep.jpeg",
+      "PackagePath": "staticwebassets\\img\\raudiep.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\raumuong.jpeg",
+      "PackagePath": "staticwebassets\\img\\raumuong.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\raumuongxao.jpeg",
+      "PackagePath": "staticwebassets\\img\\raumuongxao.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\raungot.jpeg",
+      "PackagePath": "staticwebassets\\img\\raungot.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\rauxalach.jpeg",
+      "PackagePath": "staticwebassets\\img\\rauxalach.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\rauxanh.jpeg",
+      "PackagePath": "staticwebassets\\img\\rauxanh.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\thitbo.jpeg",
+      "PackagePath": "staticwebassets\\img\\thitbo.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\thitbotuoi.jpeg",
+      "PackagePath": "staticwebassets\\img\\thitbotuoi.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\thitcuu.jpeg",
+      "PackagePath": "staticwebassets\\img\\thitcuu.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\thitga.jpeg",
+      "PackagePath": "staticwebassets\\img\\thitga.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\thitgacongnghiep.jpeg",
+      "PackagePath": "staticwebassets\\img\\thitgacongnghiep.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\thitheo.jpeg",
+      "PackagePath": "staticwebassets\\img\\thitheo.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\thitvit.jpeg",
+      "PackagePath": "staticwebassets\\img\\thitvit.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\tieu.jpeg",
+      "PackagePath": "staticwebassets\\img\\tieu.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\toi.jpeg",
+      "PackagePath": "staticwebassets\\img\\toi.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\tom.jpeg",
+      "PackagePath": "staticwebassets\\img\\tom.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\vaithieu.jpeg",
+      "PackagePath": "staticwebassets\\img\\vaithieu.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\xoaikeo.jpeg",
+      "PackagePath": "staticwebassets\\img\\xoaikeo.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\img\\xodiep.jpeg",
+      "PackagePath": "staticwebassets\\img\\xodiep.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Web\\Big project\\webBanNongSan\\baitaplon\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.baitaplon.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.baitaplon.props",
+      "PackagePath": "build\\baitaplon.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.baitaplon.props",
+      "PackagePath": "buildMultiTargeting\\baitaplon.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.baitaplon.props",
+      "PackagePath": "buildTransitive\\baitaplon.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
