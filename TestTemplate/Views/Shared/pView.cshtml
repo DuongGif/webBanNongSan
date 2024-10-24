@@ -1,0 +1,11 @@
+﻿@model NongSan
+<div class="col-lg-4 menu-item">
+    <a href="@Url.Content("../img/"+ Model.DuongDanAnh)" class="glightbox"><img src="@Url.Content("../img/"+ Model.DuongDanAnh)" class="menu-img img-fluid" alt=""></a>
+    <h4>@Model.TenNongSan</h4>
+    <p class="ingredients">
+        Số lượng: @Model.SoLuongTonKho
+    </p>
+    <p class="price">
+        Giá bán: @Model.GiaBan
+    </p>
+</div>
