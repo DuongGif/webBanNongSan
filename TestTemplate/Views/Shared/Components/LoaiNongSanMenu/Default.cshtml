@@ -1,0 +1,47 @@
+﻿@model IEnumerable<LoaiNongSan>
+
+<li class="dropdown">
+    <a href="#"><span>Menu Nông Sản</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+    <ul>
+        @foreach (var item in Model)
+        {
+            var getUrl = "https://localhost:7055/api/nongsanapi/" + item.MaLoai;
+            <li><a style="cursor:pointer" onclick="showSp('@getUrl')">@item.TenLoai</a></li>
+
+        }
+    </ul>
+</li>
+<script>
+    function showSp(getUrl) {
+        var str = '';
+        $.ajax({
+            type: 'GET',
+            url: getUrl,
+            dataType: 'json',
+            success: function (data) {
+                $.each(data, function (key, val) {
+                    //str +='<p>'+val.tenNongSan+'</p>';
+                    str += '<div class="col-lg-4 menu-item">';
+                    str += '<a href="';
+                    var link = "../img/" + $.trim(val.duongDanAnh);
+                    str += link;
+                    str += '" class="glightbox"><img src="';
+                    str += link;
+                    str += '" class="menu-img img-fluid" alt=""></a><h4>';
+                    str += $.trim(val.tenNongSan);
+                    str += '</h4><p class="ingredients"> Số lượng: ';
+                    str += val.soLuongTonKho.toString();
+                    str += '</p><p class="price"> Giá bán: ';
+                    str += val.giaBan.toString();
+                    str += '</p></div>';
+
+                }),
+                    $('#displaySp').html(str);
+            },
+
+            Error: function (xhr) {
+                alert(xhr.responseText)
+            }
+        });
+    }
+</script>
