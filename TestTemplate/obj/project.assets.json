@@ -10894,11 +10894,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Web\\Big project\\webBanNongSan\\TestTemplate\\TestTemplate.csproj",
+      "projectUniqueName": "D:\\Web\\webBanNongSan\\TestTemplate\\TestTemplate.csproj",
       "projectName": "TestTemplate",
-      "projectPath": "D:\\Web\\Big project\\webBanNongSan\\TestTemplate\\TestTemplate.csproj",
+      "projectPath": "D:\\Web\\webBanNongSan\\TestTemplate\\TestTemplate.csproj",
       "packagesPath": "C:\\Users\\xx3du\\.nuget\\packages\\",
-      "outputPath": "D:\\Web\\Big project\\webBanNongSan\\TestTemplate\\obj\\",
+      "outputPath": "D:\\Web\\webBanNongSan\\TestTemplate\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\xx3du\\AppData\\Roaming\\NuGet\\NuGet.Config",

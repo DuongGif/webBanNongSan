@@ -9,77 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TestTemplate
 build_property.RootNamespace = TestTemplate
-build_property.ProjectDir = D:\Web\Big project\webBanNongSan\TestTemplate\
+build_property.ProjectDir = D:\Web\webBanNongSan\TestTemplate\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Web\Big project\webBanNongSan\TestTemplate
+build_property.MSBuildProjectDirectory = D:\Web\webBanNongSan\TestTemplate
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Web/Big project/webBanNongSan/TestTemplate/Areas/Admin/Views/HomeAdmin/DanhMucNongSan.cshtml]
+[D:/Web/webBanNongSan/TestTemplate/Areas/Admin/Views/HomeAdmin/DanhMucNongSan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERhbmhNdWNOb25nU2FuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Big project/webBanNongSan/TestTemplate/Areas/Admin/Views/HomeAdmin/Index.cshtml]
+[D:/Web/webBanNongSan/TestTemplate/Areas/Admin/Views/HomeAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Big project/webBanNongSan/TestTemplate/Areas/Admin/Views/HomeAdmin/SuaNongSan.cshtml]
+[D:/Web/webBanNongSan/TestTemplate/Areas/Admin/Views/HomeAdmin/SuaNongSan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFN1YU5vbmdTYW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Big project/webBanNongSan/TestTemplate/Areas/Admin/Views/HomeAdmin/ThemNongSanMoi.cshtml]
+[D:/Web/webBanNongSan/TestTemplate/Areas/Admin/Views/HomeAdmin/ThemNongSanMoi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRoZW1Ob25nU2FuTW9pLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Big project/webBanNongSan/TestTemplate/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
+[D:/Web/webBanNongSan/TestTemplate/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Big project/webBanNongSan/TestTemplate/Views/Access/Login.cshtml]
+[D:/Web/webBanNongSan/TestTemplate/Views/Access/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Big project/webBanNongSan/TestTemplate/Views/Home/Index.cshtml]
+[D:/Web/webBanNongSan/TestTemplate/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Big project/webBanNongSan/TestTemplate/Views/Home/NongSanTheoLoai.cshtml]
+[D:/Web/webBanNongSan/TestTemplate/Views/Home/NongSanTheoLoai.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOb25nU2FuVGhlb0xvYWkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Big project/webBanNongSan/TestTemplate/Views/Home/Privacy.cshtml]
+[D:/Web/webBanNongSan/TestTemplate/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Big project/webBanNongSan/TestTemplate/Views/Shared/Components/LoaiNongSanMenu/Default.cshtml]
+[D:/Web/webBanNongSan/TestTemplate/Views/Shared/Components/LoaiNongSanMenu/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTG9haU5vbmdTYW5NZW51XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Big project/webBanNongSan/TestTemplate/Views/Shared/Error.cshtml]
+[D:/Web/webBanNongSan/TestTemplate/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Big project/webBanNongSan/TestTemplate/Views/Shared/pView.cshtml]
+[D:/Web/webBanNongSan/TestTemplate/Views/Shared/pView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHBWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Big project/webBanNongSan/TestTemplate/Views/Shared/_LayoutTpl.cshtml]
+[D:/Web/webBanNongSan/TestTemplate/Views/Shared/_LayoutTpl.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRUcGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Big project/webBanNongSan/TestTemplate/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Web/webBanNongSan/TestTemplate/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Big project/webBanNongSan/TestTemplate/Views/_ViewImports.cshtml]
+[D:/Web/webBanNongSan/TestTemplate/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Big project/webBanNongSan/TestTemplate/Views/_ViewStart.cshtml]
+[D:/Web/webBanNongSan/TestTemplate/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Big project/webBanNongSan/TestTemplate/Views/Shared/_Layout.cshtml]
+[D:/Web/webBanNongSan/TestTemplate/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zhth44ue4d
