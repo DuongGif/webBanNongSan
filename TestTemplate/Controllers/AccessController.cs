@@ -23,17 +23,27 @@ namespace TestTemplate.Controllers
         [HttpPost]
         public IActionResult Login(TaiKhoan user)
         {
-            if(HttpContext.Session.GetString("UserName") == null)
+            if (HttpContext.Session.GetString("UserName") == null)
             {
                 var u = db.TaiKhoans.Where(x => x.TenTaiKhoan.Equals(user.TenTaiKhoan) && x.MatKhau.Equals(user.MatKhau)).FirstOrDefault();
                 if (u != null)
                 {
                     HttpContext.Session.SetString("UserName", u.TenTaiKhoan.ToString());
-                    return RedirectToAction("Index", "Home");
+
+                    
+                    if (u.TenTaiKhoan == "admin") 
+                    {
+                        return RedirectToAction("Index", "HomeAdmin", new { area = "Admin" });
+                    }
+                    else
+                    {
+                        return RedirectToAction("Index", "Home");
+                    }
                 }
             }
             return View();
         }
+
         public IActionResult Logout()
         {
             HttpContext.Session.Clear();

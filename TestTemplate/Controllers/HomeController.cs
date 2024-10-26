@@ -16,7 +16,7 @@ namespace TestTemplate.Controllers
             _logger = logger;
         }
 
-       // [Authentication]
+        [Authentication]
 
         public IActionResult Index(int? page)
         {
@@ -27,7 +27,7 @@ namespace TestTemplate.Controllers
             return View(list);
         }
 
-       // [Authentication]
+        [Authentication]
 
         public IActionResult NongSanTheoLoai(string maNongSan, int? page)
         {
