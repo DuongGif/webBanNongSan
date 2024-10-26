@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2ctr9J5YN9EPpBLG3JOS5mgPbAaM+hhTUtHqvxoJavA=",
+  "Hash": "1iwWkT+9y8ZC+7eZYdAMvLQFXaU/v78FRhR1afA5PEw=",
   "Source": "TestTemplate",
   "BasePath": "_content/TestTemplate",
   "Mode": "Default",
@@ -8600,6 +8600,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\img\\aaaaa.png",
+      "SourceId": "TestTemplate",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\",
+      "BasePath": "_content/TestTemplate",
+      "RelativePath": "img/aaaaa.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\aaaaa.png"
     },
     {
       "Identity": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\img\\banhchung.jpeg",

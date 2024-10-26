@@ -28,6 +28,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFN1YU5vbmdTYW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Web/webBanNongSan/TestTemplate/Areas/Admin/Views/HomeAdmin/ThemAnhNongSan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRoZW1BbmhOb25nU2FuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Web/webBanNongSan/TestTemplate/Areas/Admin/Views/HomeAdmin/ThemNongSanMoi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRoZW1Ob25nU2FuTW9pLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
