@@ -3,6 +3,7 @@ using System.Diagnostics;
 using TestTemplate.Models;
 using TestTemplate.Models.Authentication;
 using X.PagedList;
+using X.PagedList.Extensions;
 
 namespace TestTemplate.Controllers
 {
@@ -16,7 +17,7 @@ namespace TestTemplate.Controllers
             _logger = logger;
         }
 
-       // [Authentication]
+        [Authentication]
 
         public IActionResult Index(int? page)
         {
@@ -27,7 +28,7 @@ namespace TestTemplate.Controllers
             return View(list);
         }
 
-       // [Authentication]
+        [Authentication]
 
         public IActionResult NongSanTheoLoai(string maNongSan, int? page)
         {
@@ -38,9 +39,17 @@ namespace TestTemplate.Controllers
             PagedList<NongSan> list = new PagedList<NongSan>(listsp, pageNumber, pageSize);
             return View(list);
         }
-        public IActionResult Privacy()
+
+        public IActionResult ChiTietNongSan(string maNongSan)
         {
-            return View();
+            var nongSan = db.NongSans.FirstOrDefault(x => x.MaNongSan == maNongSan);
+            return View(nongSan);
+        }
+
+        public IActionResult LoadNongSan(int page = 1)
+        {
+            var listNongSan = db.NongSans.ToPagedList(page, 10); // 10 sản phẩm mỗi trang
+            return PartialView("_NongSanPartial", listNongSan);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

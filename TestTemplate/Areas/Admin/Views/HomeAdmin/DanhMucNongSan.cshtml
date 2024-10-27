@@ -12,7 +12,7 @@
 <h1>Danh mục nông sản hiện có</h1>
 
 <p>
-    <a asp-action="ThemNongSanMoi">Create New</a>
+    <a asp-action="ThemNongSanMoi" class="btn btn-xs btn-success">Thêm mới nông sản</a>
 </p>
 <p>@TempData["Message"]</p>
 <table class="table">
@@ -51,9 +51,12 @@
             </td>
            
             <td>
-                <a asp-action="SuaNongSan" asp-route-maNongSan="@item.MaNongSan">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.MaNongSan">Details</a> |
-                <a asp-action="XoaNongSan" asp-route-maNongSan="@item.MaNongSan">Delete</a>
+                <a asp-controller="Home" asp-action="ChiTietNongSan" asp-route-maNongSan="@item.MaNongSan">Chi tiết</a> |
+                <a  asp-action="XoaNongSan" asp-route-maNongSan="@item.MaNongSan">Xóa</a>  |
+                <a  asp-action="SuaNongSan" asp-route-maNongSan="@item.MaNongSan">Sửa</a> |
+                <a  asp-action="ThemAnhNongSan" asp-route-maNongSan="@item.MaNongSan">Tải ảnh</a>
+                
+                
             </td>
         </tr>
 }
