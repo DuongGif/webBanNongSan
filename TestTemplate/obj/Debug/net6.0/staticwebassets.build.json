@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ctkUQaU2mi4NWXWaOclhEYtq2zcouzpxzE63UFW5cGA=",
+  "Hash": "8woCVp9msG69dhiyQpcnr2kGEHAeLtLFhW1i3gWadqA=",
   "Source": "TestTemplate",
   "BasePath": "_content/TestTemplate",
   "Mode": "Default",
@@ -8704,6 +8704,23 @@
       "OriginalItemSpec": "wwwroot\\img\\bido.jpeg"
     },
     {
+      "Identity": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\img\\Binh.jpg",
+      "SourceId": "TestTemplate",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\",
+      "BasePath": "_content/TestTemplate",
+      "RelativePath": "img/Binh.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Binh.jpg"
+    },
+    {
       "Identity": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\img\\bixanh.jpeg",
       "SourceId": "TestTemplate",
       "SourceType": "Discovered",
@@ -8991,6 +9008,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\dudu.jpeg"
+    },
+    {
+      "Identity": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\img\\duong.jpg",
+      "SourceId": "TestTemplate",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\",
+      "BasePath": "_content/TestTemplate",
+      "RelativePath": "img/duong.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\duong.jpg"
     },
     {
       "Identity": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\img\\gao.jpeg",

@@ -2017,6 +2017,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\img\\Binh.jpg",
+      "PackagePath": "staticwebassets\\img\\Binh.jpg"
+    },
+    {
       "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\img\\aaaaa.png",
       "PackagePath": "staticwebassets\\img\\aaaaa.png"
     },
@@ -2107,6 +2111,10 @@
     {
       "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\img\\dudu.jpeg",
       "PackagePath": "staticwebassets\\img\\dudu.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\img\\duong.jpg",
+      "PackagePath": "staticwebassets\\img\\duong.jpg"
     },
     {
       "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\img\\gao.jpeg",
