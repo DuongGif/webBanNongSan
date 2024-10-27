@@ -1,11 +1,16 @@
 ﻿@model NongSan
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 <div class="col-lg-4 menu-item">
     <a href="@Url.Content("../img/"+ Model.DuongDanAnh)" class="glightbox"><img src="@Url.Content("../img/"+ Model.DuongDanAnh)" class="menu-img img-fluid" alt=""></a>
     <h4>@Model.TenNongSan</h4>
     <p class="ingredients">
         Số lượng: @Model.SoLuongTonKho
     </p>
+    <p>
+        <a asp-controller="Home" asp-action="ChiTietNongSan" asp-route-maNongSan="@Model.MaNongSan">Chi Tiết</a>
+    </p>
     <p class="price">
         Giá bán: @Model.GiaBan
     </p>
+   
 </div>

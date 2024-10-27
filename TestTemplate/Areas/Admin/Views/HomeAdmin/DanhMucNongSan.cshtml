@@ -51,7 +51,7 @@
             </td>
            
             <td>
-                <a  asp-action="ChiTietNongSan" asp-route-maNongSan="@item.MaNongSan">Chi tiết</a> |
+                <a asp-controller="Home" asp-action="ChiTietNongSan" asp-route-maNongSan="@item.MaNongSan">Chi tiết</a> |
                 <a  asp-action="XoaNongSan" asp-route-maNongSan="@item.MaNongSan">Xóa</a>  |
                 <a  asp-action="SuaNongSan" asp-route-maNongSan="@item.MaNongSan">Sửa</a> |
                 <a  asp-action="ThemAnhNongSan" asp-route-maNongSan="@item.MaNongSan">Tải ảnh</a>

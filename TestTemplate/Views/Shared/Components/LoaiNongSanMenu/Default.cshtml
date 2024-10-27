@@ -31,6 +31,8 @@
                     str += $.trim(val.tenNongSan);
                     str += '</h4><p class="ingredients"> Số lượng: ';
                     str += val.soLuongTonKho.toString();
+                    str += '</p><p>';
+                    str += '<a href=\"/Home/ChiTietNongSan?MaNongSan=' + $.trim(val.maNongSan) + '\">Chi Tiết</a>';
                     str += '</p><p class="price"> Giá bán: ';
                     str += val.giaBan.toString();
                     str += '</p></div>';

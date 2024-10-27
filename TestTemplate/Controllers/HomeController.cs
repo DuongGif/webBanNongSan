@@ -38,6 +38,13 @@ namespace TestTemplate.Controllers
             PagedList<NongSan> list = new PagedList<NongSan>(listsp, pageNumber, pageSize);
             return View(list);
         }
+
+        public IActionResult ChiTietNongSan(string maNongSan)
+        {
+            var nongSan = db.NongSans.FirstOrDefault(x => x.MaNongSan == maNongSan);
+            return View(nongSan);
+        }
+
         public IActionResult Privacy()
         {
             return View();
