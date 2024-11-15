@@ -45,26 +45,26 @@
       <a asp-controller="Home" asp-action="Index" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="../tpl/assets/img/logo.png" alt=""> -->
-        <h1 class="sitename" style="color:red">Agricultural products</h1>
-        <span>.</span>
+        <h1 class="sitename" style="color:red">NÔNG SẢN VIỆT</h1>
+        <span></span>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home<br></a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="#events">Events</a></li>
-          <li><a href="#chefs">Chefs</a></li>
-          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#hero" class="active">Trang chủ<br></a></li>
+          <li><a href="#about">Giới thiệu</a></li>
                     @await Component.InvokeAsync("LoaiNongSanMenu")
+          <li><a href="#events">Sự kiện</a></li>
+          <li><a href="#chefs">Nhà cung cấp</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+                   
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
       @* <a class="btn-getstarted" href="index.html#book-a-table">Login</a> *@
-            <a asp-controller="Access" asp-action= "Logout"  class="btn-getstarted" >Login</a>
+            <a asp-controller="Access" asp-action= "Logout"  class="btn-getstarted" >Đăng nhập</a>
     </div>
   </header>
 
@@ -76,15 +76,15 @@
       <div class="container">
         <div class="row gy-4 justify-content-center justify-content-lg-between">
           <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h1 data-aos="fade-up">Enjoy Your Healthy<br>Delicious Food</h1>
-            <p data-aos="fade-up" data-aos-delay="100">We are team of talented designers making websites with Bootstrap</p>
+            <h1 data-aos="fade-up">Tận hưởng nông sản sạch<br></h1>
+            <p data-aos="fade-up" data-aos-delay="100">Đội ngũ của chúng tôi luôn sẵn sàng phục vụ nông sản chất lượng cao</p>
             <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-              <a href="#book-a-table" class="btn-get-started">Booka a Table</a>
-              <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+              <a href="#book-a-table" class="btn-get-started">Mua nông sản</a>
+              <a href="https://www.youtube.com/watch?v=Au6LqK1UH8g" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
             </div>
           </div>
           <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-            <img src="../tpl/assets/img/hero-img.png" class="img-fluid animated" alt="">
+            <img src="../tpl/assets/img/anhnongsan.jpeg" class="img-fluid animated" alt="">
           </div>
         </div>
       </div>
@@ -96,39 +96,35 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>About Us<br></h2>
-        <p><span>Learn More</span> <span class="description-title">About Us</span></p>
+        <h2>Một chút về chúng tôi<br></h2>
+        <p><span>Tìm hiểu thêm</span> <span class="description-title">Về chúng tôi</span></p>
       </div><!-- End Section Title -->
 
       <div class="container">
 
         <div class="row gy-4">
           <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-            <img src="../tpl/assets/img/about.jpg" class="img-fluid mb-4" alt="">
+            <img src="../tpl/assets/img/about.jpeg" class="img-fluid mb-4" alt="">
             <div class="book-a-table">
-              <h3>Book a Table</h3>
-              <p>+1 5589 55488 55</p>
+              <h3>Mua nông sản</h3>
+              <p>0346673447</p>
             </div>
           </div>
           <div class="col-lg-5" data-aos="fade-up" data-aos-delay="250">
             <div class="content ps-0 ps-lg-5">
               <p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua.
+               Chào mừng bạn đến với Shop Nông Sản Việt – Nơi cung cấp nông sản tươi ngon và an toàn!
               </p>
               <ul>
-                <li><i class="bi bi-check-circle-fill"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                <li><i class="bi bi-check-circle-fill"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                <li><i class="bi bi-check-circle-fill"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span>Chúng tôi tự hào mang đến cho bạn những sản phẩm nông nghiệp chất lượng cao, được trồng và chăm sóc bởi những người nông dân tâm huyết.</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span>Tại Nông Sản Việt, bạn có thể dễ dàng tìm thấy các loại rau củ, trái cây, và sản phẩm hữu cơ, tất cả đều được thu hoạch trực tiếp từ ruộng vườn</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span>Chúng tôi cam kết mang đến cho bạn những sản phẩm tươi ngon nhất, giúp bạn và gia đình có một bữa ăn lành mạnh và bổ dưỡng</span></li>
               </ul>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-              </p>
+                            <p>Hãy cùng khám phá và ủng hộ nông sản Việt Nam ngay hôm nay!</p>
 
               <div class="position-relative mt-4">
-                <img src="../tpl/assets/img/about-2.jpg" class="img-fluid" alt="">
-                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+                <img src="../tpl/assets/img/about2.jpeg" class="img-fluid" alt="">
+                <a href="https://www.youtube.com/watch?v=Au6LqK1UH8g" class="glightbox pulsating-play-btn"></a>
               </div>
             </div>
           </div>
@@ -147,41 +143,41 @@
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="why-box">
-              <h3>Why Choose Yummy</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
-              </p>
+              <h3>Tại sao nên chọn Nông Sản Việt</h3>
+              <p>1.Chất lượng sản phẩm: Chúng tôi cam kết cung cấp nông sản tươi ngon, an toàn và được kiểm định chất lượng nghiêm ngặt.</p>
+              <p>2.Nguồn gốc rõ ràng: Tất cả sản phẩm đều được thu hoạch từ những trang trại uy tín, đảm bảo nguồn gốc xuất xứ minh bạch.</p>
+              <p>3.Dịch vụ khách hàng tận tâm: Đội ngũ nhân viên của chúng tôi luôn sẵn sàng hỗ trợ và tư vấn để bạn có trải nghiệm mua sắm tốt nhất.</p>
+              <p>4.Giá cả hợp lý: Chúng tôi cung cấp sản phẩm với mức giá cạnh tranh, giúp bạn tiết kiệm chi phí mà vẫn đảm bảo chất lượng.</p>
+              <p>5.Giao hàng nhanh chóng: Chúng tôi cam kết giao hàng nhanh chóng và đúng hẹn, mang đến sự tiện lợi cho bạn trong việc mua sắm.</p>             
               <div class="text-center">
                 <a href="#" class="more-btn"><span>Learn More</span> <i class="bi bi-chevron-right"></i></a>
               </div>
             </div>
           </div><!-- End Why Box -->
-
           <div class="col-lg-8 d-flex align-items-stretch">
             <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
 
               <div class="col-xl-4">
                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
                   <i class="bi bi-clipboard-data"></i>
-                  <h4>Corporis voluptates officia eiusmod</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                  <h4>Duyệt đơn nhanh</h4>
+                  <p>Đơn hàng của bạn sẽ được duyệt 1 cách nhanh chóng</p>
                 </div>
               </div><!-- End Icon Box -->
 
               <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
                   <i class="bi bi-gem"></i>
-                  <h4>Ullamco laboris ladore lore pan</h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                  <h4>Chất lượng cao</h4>
+                  <p>Nông sản Việt cam kết nông sản cung cấp cho khách hàng là nông sản chất lượng cao nhất</p>
                 </div>
               </div><!-- End Icon Box -->
 
               <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
                   <i class="bi bi-inboxes"></i>
-                  <h4>Labore consequatur incidid dolore</h4>
-                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                  <h4>Giao hàng nhanh chóng</h4>
+                  <p>Chúng tôi cam kết giao hàng với tốc độ cực nhanh chỉ từ 12-24 giờ đối với địa chỉ nội thành</p>
                 </div>
               </div><!-- End Icon Box -->
 
@@ -205,29 +201,29 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Clients</p>
+              <span data-purecounter-start="0" data-purecounter-end="10000" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Khách hàng</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Projects</p>
+              <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Số loại nông sản sẵn có</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Hours Of Support</p>
+              <span data-purecounter-start="0" data-purecounter-end="1000000" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Số đơn giao thành công</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Workers</p>
+              <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Số địa chỉ cửa hàng</p>
             </div>
           </div><!-- End Stats Item -->
 
@@ -242,47 +238,19 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Our Menu</h2>
-        <p><span>Check Our</span> <span class="description-title">Yummy Menu</span></p>
+        <h2></h2>Menu của chúng tôi
+        <p><span>Check Our</span> <span class="description-title">Nông sản Việt</span></p>
       </div><!-- End Section Title -->
 
       <div class="container">
 
-        <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-
-          <li class="nav-item">
-            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
-              <h4>Starters</h4>
-            </a>
-          </li><!-- End tab nav item -->
-
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-breakfast">
-              <h4>Breakfast</h4>
-            </a><!-- End tab nav item -->
-
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-lunch">
-              <h4>Lunch</h4>
-            </a>
-          </li><!-- End tab nav item -->
-
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-dinner">
-              <h4>Dinner</h4>
-            </a>
-          </li><!-- End tab nav item -->
-
-        </ul>
-
-        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">   
 
         <div class="tab-pane fade active show  " id=" menu-starters">
 
             <div class="tab-header text-center">
-              <p>Menu</p>
-              <h3>Starters</h3>
+              <h3>Menu</h3>
+             
             </div>
         <div class="row gy-5" id="displaySp">
            @RenderBody()
@@ -534,8 +502,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>TESTIMONIALS</h2>
-        <p>What Are They <span class="description-title">Saying About Us</span></p>
+        <h2>PHẢN HỒI</h2>
+        <p>KHÁCH HÀNG <span class="description-title">NÓI GÌ VỀ CHÚNG TÔI</span></p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -565,10 +533,10 @@
                     <div class="testimonial-content">
                       <p>
                         <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                        <span>Cửa hàng các bạn rất sạch sẽ và thoáng mát tôi rất thích không khí nơi đây</span>
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
-                      <h3>Saul Goodman</h3>
+                      <h3>Trương Quang Nam</h3>
                       <h4>Ceo &amp; Founder</h4>
                       <div class="stars">
                         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
@@ -589,10 +557,10 @@
                     <div class="testimonial-content">
                       <p>
                         <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                        <span>Nông sản ở đây thực sự rất ngon và sạch, tôi đã mua hàng ở đây được 5 năm rồi</span>
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
-                      <h3>Sara Wilsson</h3>
+                      <h3>Nguyễn Việt Hưng</h3>
                       <h4>Designer</h4>
                       <div class="stars">
                         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
@@ -613,10 +581,10 @@
                     <div class="testimonial-content">
                       <p>
                         <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                        <span>Dịch vụ chăm sóc khách hàng rất tốt, nhân viên nhiệt tình và sẵn sàng tư vấn để mình chọn được sản phẩm phù hợp</span>
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
-                      <h3>Jena Karlis</h3>
+                      <h3>Nguyễn Mạnh Cường</h3>
                       <h4>Store Owner</h4>
                       <div class="stars">
                         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
@@ -637,10 +605,14 @@
                     <div class="testimonial-content">
                       <p>
                         <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                        <span>Chất lượng sản phẩm ở cửa hàng nông sản này rất đáng tin cậy, từ rau củ quả đến các 
+                            loại đặc sản đều rất tươi và ngon. Mình rất hài lòng với cách phục vụ chuyên nghiệp,
+                            nhân viên nhiệt tình giới thiệu về các sản phẩm đặc trưng. Ngoài ra, giá cả ở đây cũng 
+                            khá hợp lý, phù hợp với chất lượng và nguồn gốc sản phẩm. Mình thấy đây là địa điểm tuyệt 
+                            vời để mua sắm thực phẩm sạch và an toàn</span>
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
-                      <h3>John Larson</h3>
+                      <h3>Nguyễn Huy Hùng</h3>
                       <h4>Entrepreneur</h4>
                       <div class="stars">
                         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
@@ -695,35 +667,35 @@
           </script>
           <div class="swiper-wrapper">
 
-            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(../tpl/assets/img/events-1.jpg)">
-              <h3>Custom Parties</h3>
-              <div class="price align-self-start">$99</div>
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(../tpl/assets/img/giamgia50.jpg)">
+              <h3>Giảm giá mùa vụ</h3>
+              <div class="price align-self-start"> Giá trị lên đến $199</div>
               <p class="description">
-                Quo corporis voluptas ea ad. Consectetur inventore sapiente ipsum voluptas eos omnis facere. Enim facilis veritatis id est rem repudiandae nulla expedita quas.
+                Giảm 15% lên đến 50% cho tất cả các loại rau củ tươi trong mùa thu hoạch với đơn hàng từ 100,000 VNĐ, kéo dài từ ngày 1 đến 15 hàng tháng
               </p>
             </div><!-- End Event item -->
 
-            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(../tpl/assets/img/events-2.jpg)">
-              <h3>Private Parties</h3>
-              <div class="price align-self-start">$289</div>
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(../tpl/assets/img/mua1tang1.jpeg)">
+              <h3>Mua 2 tặng 1</h3>
+              <div class="price align-self-start">Giá trị lên đến $289</div>
               <p class="description">
-                In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.
+                  Khi mua 2 kg trái cây nhập khẩu với giá trị tối thiểu 150,000 VNĐ, khách hàng được tặng thêm 0,5 kg cùng loại, áp dụng trong ngày cuối tuần
               </p>
             </div><!-- End Event item -->
 
-            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(../tpl/assets/img/events-3.jpg)">
-              <h3>Birthday Parties</h3>
-              <div class="price align-self-start">$499</div>
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(../tpl/assets/img/giovanggiamgia.jpeg)">
+              <h3>Giờ vàng giảm giá</h3>
+              <div class="price align-self-start">Giá trị lên đến $399</div>
               <p class="description">
-                Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
+                  Giảm 20% cho đơn hàng từ 100,000 VNĐ trong khung giờ từ 12h đến 14h mỗi thứ 4, giá trị tối thiểu là 100,000 VNĐ
               </p>
             </div><!-- End Event item -->
 
-            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(../tpl/assets/img/events-4.jpg)">
-              <h3>Wedding Parties</h3>
-              <div class="price align-self-start">$899</div>
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(../tpl/assets/img/freeshipp.jpeg)">
+              <h3>Miễn phí vận chuyển</h3>
+              <div class="price align-self-start">Giá trị lên đến $99</div>
               <p class="description">
-                Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
+                  Miễn phí giao hàng cho đơn hàng trên 200,000 VNĐ trong nội thành, áp dụng suốt tuần lễ "Nông sản sạch
               </p>
             </div><!-- End Event item -->
 
@@ -740,8 +712,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>chefs</h2>
-        <p><span>Our</span> <span class="description-title">Proffesional Chefs<br></span></p>
+        <h2>Nhà cung cấp</h2>
+        <p><span>Những nhà cung cấp</span> <span class="description-title">Hàng đầu của chúng tôi<br></span></p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -751,7 +723,7 @@
           <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member">
               <div class="member-img">
-                <img src="../tpl/assets/img/chefs/chefs-1.jpg" class="img-fluid" alt="">
+                <img src="../tpl/assets/img/chefs/nongdan1.webp" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -760,9 +732,10 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Master Chef</span>
-                <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+                <h4>Lý Minh Hùng</h4>
+                <span>Giám đốc HTX Thanh Bình</span>
+                <p>“Đợt này tôi mang theo các sản phẩm làm từ thân cây chuối. Rất đẹp, nhìn là thích liền. 
+                    Hy vọng các khách hàng châu Âu sắp gặp cũng sẽ hài lòng”, ông Hùng hào hứng cho biết.</p>
               </div>
             </div>
           </div><!-- End Chef Team Member -->
@@ -770,7 +743,7 @@
           <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="team-member">
               <div class="member-img">
-                <img src="../tpl/assets/img/chefs/chefs-2.jpg" class="img-fluid" alt="">
+                <img src="../tpl/assets/img/chefs/nongdan2.webp" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -779,9 +752,12 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Patissier</span>
-                <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+                <h4>Phạm Văn Trung </h4>
+                <span>Anh nông dân trồng lúa trên cánh đồng thẳng cánh cò bay ở Thái Bình</span>
+                <p>Sinh ra tại làng quê, và bám trụ với nghề nông, 2 bố con ông Phạm Văn Trung 
+                    (sinh năm 1974) và con trai Phạm Minh Tân (sinh năm 1995) ở thôn Đông Quách, 
+                    xã Nam Hà, huyện Tiền Hải, tỉnh Thái Bình không cam lòng khi nhiều đất trồng 
+                    lúa bị bỏ hoang. Từ đó, bố con ông có quyết định mà không phải ai cũng dám làm.</p>
               </div>
             </div>
           </div><!-- End Chef Team Member -->
@@ -789,7 +765,7 @@
           <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="team-member">
               <div class="member-img">
-                <img src="../tpl/assets/img/chefs/chefs-3.jpg" class="img-fluid" alt="">
+                <img src="../tpl/assets/img/chefs/Nongdan3.webp" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -798,10 +774,14 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>Cook</span>
-                <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
-              </div>
+                <h4>Nguyễn Thanh Tuấn</h4>
+                <span>Nông dân Việt Nam xuất sắc của tỉnh Kiên Giang</span>
+                <p> Ông bắt đầu những bước chân đầu tiên chinh phục vùng đất hoang vu, chỉ toàn cỏ dại và phèn, mặn.
+                    "Đất phèn đến độ chỉ cần nhúng chân xuống nước đã vàng khè", ông Tuấn tâm sự với người viết.
+                    Tự hào Nông dân Việt Nam: 862 tỷ đồng và những người nông dân mới
+                    Nhưng bằng ý chí, nghị lực, sau hơn 20 năm chinh phục vùng đất khó, n
+                    gười nông dân ấy đã sở hữu một cánh đồng 500ha, đều đặn cho những hạt 
+                    ngọc trời dù qua bao mùa mưa nắng với sản lượng lên đến 3.625 tấn. </p>
             </div>
           </div><!-- End Chef Team Member -->
 
@@ -816,48 +796,48 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Book A Table</h2>
-        <p><span>Book Your</span> <span class="description-title">Stay With Us<br></span></p>
+        <h2>Đặt hàng ngay</h2>
+        <p><span>Liên hện ngay </span> <span class="description-title">Với chúng tôi<br></span></p>
       </div><!-- End Section Title -->
 
       <div class="container">
 
         <div class="row g-0" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="col-lg-4 reservation-img" style="background-image: url(../tpl/assets/img/reservation.jpg);"></div>
+          <div class="col-lg-4 reservation-img" style="background-image: url(../tpl/assets/img/dathang.jpg);"></div>
 
           <div class="col-lg-8 d-flex align-items-center reservation-form-bg" data-aos="fade-up" data-aos-delay="200">
             <form action="../tpl/forms/book-a-table.php" method="post" role="form" class="php-email-form">
               <div class="row gy-4">
                 <div class="col-lg-4 col-md-6">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Tên" required="">
                 </div>
                 <div class="col-lg-4 col-md-6">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required="">
                 </div>
                 <div class="col-lg-4 col-md-6">
-                  <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" required="">
+                  <input type="text" class="form-control" name="phone" id="phone" placeholder="Số điện thoại" required="">
                 </div>
                 <div class="col-lg-4 col-md-6">
-                  <input type="date" name="date" class="form-control" id="date" placeholder="Date" required="">
+                  <input type="date" name="date" class="form-control" id="date" placeholder="Ngày giao hàng" required="">
                 </div>
                 <div class="col-lg-4 col-md-6">
-                  <input type="time" class="form-control" name="time" id="time" placeholder="Time" required="">
+                  <input type="time" class="form-control" name="time" id="time" placeholder="Thời gian" required="">
                 </div>
                 <div class="col-lg-4 col-md-6">
-                  <input type="number" class="form-control" name="people" id="people" placeholder="# of people" required="">
+                  <input type="number" class="form-control" name="people" id="people" placeholder="Số sản phẩm dữ kiến mua" required="">
                 </div>
               </div>
 
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+                <textarea class="form-control" name="message" rows="5" placeholder="Ghi chú dành cho chúng tôi"></textarea>
               </div>
 
               <div class="text-center mt-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
-                <button type="submit">Book a Table</button>
+                <button type="submit">Liên hệ để đặt hàng</button>
               </div>
             </form>
           </div><!-- End Reservation Form -->
@@ -873,8 +853,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Gallery</h2>
-        <p><span>Check</span> <span class="description-title">Our Gallery</span></p>
+        <h2>Một số hình ảnh</h2>
+        <p><span>Một số hình ảnh </span> <span class="description-title">Về chúng tôi</span></p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -911,14 +891,14 @@
             }
           </script>
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="../tpl/assets/img/gallery/gallery-1.jpg"><img src="../tpl/assets/img/gallery/gallery-1.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="../tpl/assets/img/gallery/gallery-2.jpg"><img src="../tpl/assets/img/gallery/gallery-2.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="../tpl/assets/img/gallery/gallery-3.jpg"><img src="../tpl/assets/img/gallery/gallery-3.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="../tpl/assets/img/gallery/gallery-4.jpg"><img src="../tpl/assets/img/gallery/gallery-4.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="../tpl/assets/img/gallery/gallery-5.jpg"><img src="../tpl/assets/img/gallery/gallery-5.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="../tpl/assets/img/gallery/gallery-6.jpg"><img src="../tpl/assets/img/gallery/gallery-6.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="../tpl/assets/img/gallery/gallery-7.jpg"><img src="../tpl/assets/img/gallery/gallery-7.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="../tpl/assets/img/gallery/gallery-8.jpg"><img src="../tpl/assets/img/gallery/gallery-8.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="../tpl/assets/img/gallery/kho-1.jpeg"><img src="../tpl/assets/img/gallery/kho-1.jpeg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="../tpl/assets/img/gallery/kho-2.jpeg"><img src="../tpl/assets/img/gallery/kho-2.jpeg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="../tpl/assets/img/gallery/kho-3.jpeg"><img src="../tpl/assets/img/gallery/kho-3.jpeg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="../tpl/assets/img/gallery/kho-4.jpeg"><img src="../tpl/assets/img/gallery/kho-4.jpeg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="../tpl/assets/img/gallery/sx-1.jpeg"><img src="../tpl/assets/img/gallery/sx-1.jpeg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="../tpl/assets/img/gallery/sx-2.jpeg"><img src="../tpl/assets/img/gallery/sx-2.jpeg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="../tpl/assets/img/gallery/sx-3.jpeg"><img src="../tpl/assets/img/gallery/sx-3.jpeg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="../tpl/assets/img/gallery/sx-4.jpeg"><img src="../tpl/assets/img/gallery/sx-4.jpeg" class="img-fluid" alt=""></a></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -932,24 +912,31 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p><span>Need Help?</span> <span class="description-title">Contact Us</span></p>
+        <h2>Liên hệ</h2>
+        <p><span>Bạn cần hỗ trợ?</span> <span class="description-title">Hãy liên hệ với chúng tôi</span></p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="mb-5">
-          <iframe style="width: 100%; height: 400px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen=""></iframe>
-        </div><!-- End Google Maps -->
-
+                        <!-- Start Google Maps -->
+                        <iframe style="width: 100%; height: 500px;"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.1132410573377!2d105.80084557362122!3d21.028154480620977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab424a50fff9%3A0xbe3a7f3670c0a45f!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBHaWFvIFRow7RuZyBW4bqtbiBU4bqjaQ!5e0!3m2!1svi!2s!4v1731640777250!5m2!1svi!2s"
+                                frameborder="0"
+                                style="border:0;"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div><!-- End Google Maps -->
         <div class="row gy-4">
 
           <div class="col-md-6">
             <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
               <i class="icon bi bi-geo-alt flex-shrink-0"></i>
               <div>
-                <h3>Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h3>Địa chỉ</h3>
+                <p>3 Đ. Cầu Giấy, Ngọc Khánh, Đống Đa, Hà Nội</p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -958,8 +945,8 @@
             <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
               <i class="icon bi bi-telephone flex-shrink-0"></i>
               <div>
-                <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
+                <h3>Đường dây nóng</h3>
+                <p>113</p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -968,8 +955,8 @@
             <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="400">
               <i class="icon bi bi-envelope flex-shrink-0"></i>
               <div>
-                <h3>Email Us</h3>
-                <p>info@example.com</p>
+                <h3>Email</h3>
+                <p>CoSaoCute@gmail.com</p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -978,8 +965,8 @@
             <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="500">
               <i class="icon bi bi-clock flex-shrink-0"></i>
               <div>
-                <h3>Opening Hours<br></h3>
-                <p><strong>Mon-Sat:</strong> 11AM - 23PM; <strong>Sunday:</strong> Closed</p>
+                <h3>Thời gian mở cửa<br></h3>
+                <p><strong>Từ thứ 2-6:</strong> 8AM - 18PM; <strong>Chủ nhật:</strong> Đóng cửa</p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -990,19 +977,19 @@
           <div class="row gy-4">
 
             <div class="col-md-6">
-              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+              <input type="text" name="name" class="form-control" placeholder="Tên" required="">
             </div>
 
             <div class="col-md-6 ">
-              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+              <input type="email" class="form-control" name="email" placeholder="Email" required="">
             </div>
 
             <div class="col-md-12">
-              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+              <input type="text" class="form-control" name="subject" placeholder="Chủ đề" required="">
             </div>
 
             <div class="col-md-12">
-              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+              <textarea class="form-control" name="message" rows="6" placeholder="Tin nhắn" required=""></textarea>
             </div>
 
             <div class="col-md-12 text-center">
@@ -1010,7 +997,7 @@
               <div class="error-message"></div>
               <div class="sent-message">Your message has been sent. Thank you!</div>
 
-              <button type="submit">Send Message</button>
+              <button type="submit">Gửi cho chúng tôi</button>
             </div>
 
           </div>
@@ -1029,9 +1016,9 @@
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-geo-alt icon"></i>
           <div class="address">
-            <h4>Address</h4>
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
+            <h4>Địa chỉ</h4>
+            <p>3 Đ. Cầu Giấy, Ngọc Khánh</p>
+            <p> Đống Đa, Hà Nội</p>
             <p></p>
           </div>
 
@@ -1040,10 +1027,10 @@
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-telephone icon"></i>
           <div>
-            <h4>Contact</h4>
+            <h4>Liên hệ</h4>
             <p>
-              <strong>Phone:</strong> <span>+1 5589 55488 55</span><br>
-              <strong>Email:</strong> <span>info@example.com</span><br>
+              <strong>Số điện thoại:</strong> <span>113</span><br>
+              <strong>Email:</strong> <span>CoSaoCute@gmail.com</span><br>
             </p>
           </div>
         </div>
@@ -1051,21 +1038,21 @@
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-clock icon"></i>
           <div>
-            <h4>Opening Hours</h4>
+            <h4>Thời gian mở cửa</h4>
             <p>
-              <strong>Mon-Sat:</strong> <span>11AM - 23PM</span><br>
-              <strong>Sunday</strong>: <span>Closed</span>
+              <strong>Thứ 2-6:</strong> <span>8AM -18PM</span><br>
+              <strong>Chủ nhật</strong>: <span>Đóng cửa</span>
             </p>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6">
-          <h4>Follow Us</h4>
+          <h4>Theo dõi chúng tôi</h4>
           <div class="social-links d-flex">
-            <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="https://soundcloud.com/ph-m-tu-n-minhh/niu-duyen-minh-prod-remix-full?in=th-d-ng-o-154341492/sets/bpfd3hoycpph/s-9l0F0q6ZatN&si=88fb921b3f7f47d19308cf25c10e215b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" class="twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.facebook.com/nguyenkim.sao" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://soundcloud.com/death-note-398927529/n-i-v-c-n-i-tr-i-ver-2-huy-pt?in=th-d-ng-o-154341492/sets/bpfd3hoycpph/s-9l0F0q6ZatN&si=41a398233775435fbed71eff4c10a089&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://soundcloud.com/ha-khanh-746649990/hey-baby-drop-it-one-the-floor?in=th-d-ng-o-154341492/sets/bpfd3hoycpph/s-9l0F0q6ZatN&si=543c6de1d4744f158878e694f8ba89d1&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" class="linkedin"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
@@ -1075,11 +1062,7 @@
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">Yummy</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+       Đây là 1 sản phẩm của nhóm 13 ?
       </div>
     </div>
 

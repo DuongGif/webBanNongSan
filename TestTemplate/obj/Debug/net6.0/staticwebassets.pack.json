@@ -2025,6 +2025,10 @@
       "PackagePath": "staticwebassets\\img\\aaaaa.png"
     },
     {
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\img\\aaaaaaaa.jpg",
+      "PackagePath": "staticwebassets\\img\\aaaaaaaa.jpg"
+    },
+    {
       "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\img\\banhchung.jpeg",
       "PackagePath": "staticwebassets\\img\\banhchung.jpeg"
     },
@@ -2921,8 +2925,20 @@
       "PackagePath": "staticwebassets\\tpl\\assets\\img\\about-2.jpg"
     },
     {
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\about.jpeg",
+      "PackagePath": "staticwebassets\\tpl\\assets\\img\\about.jpeg"
+    },
+    {
       "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\about.jpg",
       "PackagePath": "staticwebassets\\tpl\\assets\\img\\about.jpg"
+    },
+    {
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\about2.jpeg",
+      "PackagePath": "staticwebassets\\tpl\\assets\\img\\about2.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\anhnongsan.jpeg",
+      "PackagePath": "staticwebassets\\tpl\\assets\\img\\anhnongsan.jpeg"
     },
     {
       "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\apple-touch-icon.png",
@@ -2939,6 +2955,26 @@
     {
       "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\chefs\\chefs-3.jpg",
       "PackagePath": "staticwebassets\\tpl\\assets\\img\\chefs\\chefs-3.jpg"
+    },
+    {
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\chefs\\nongdan1.jpeg",
+      "PackagePath": "staticwebassets\\tpl\\assets\\img\\chefs\\nongdan1.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\chefs\\nongdan1.webp",
+      "PackagePath": "staticwebassets\\tpl\\assets\\img\\chefs\\nongdan1.webp"
+    },
+    {
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\chefs\\nongdan2.webp",
+      "PackagePath": "staticwebassets\\tpl\\assets\\img\\chefs\\nongdan2.webp"
+    },
+    {
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\chefs\\nongdan3.webp",
+      "PackagePath": "staticwebassets\\tpl\\assets\\img\\chefs\\nongdan3.webp"
+    },
+    {
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\dathang.jpg",
+      "PackagePath": "staticwebassets\\tpl\\assets\\img\\dathang.jpg"
     },
     {
       "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\events-1.jpg",
@@ -2961,36 +2997,52 @@
       "PackagePath": "staticwebassets\\tpl\\assets\\img\\favicon.png"
     },
     {
-      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\gallery\\gallery-1.jpg",
-      "PackagePath": "staticwebassets\\tpl\\assets\\img\\gallery\\gallery-1.jpg"
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\freeshipp.jpeg",
+      "PackagePath": "staticwebassets\\tpl\\assets\\img\\freeshipp.jpeg"
     },
     {
-      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\gallery\\gallery-2.jpg",
-      "PackagePath": "staticwebassets\\tpl\\assets\\img\\gallery\\gallery-2.jpg"
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\gallery\\kho-1.jpeg",
+      "PackagePath": "staticwebassets\\tpl\\assets\\img\\gallery\\kho-1.jpeg"
     },
     {
-      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\gallery\\gallery-3.jpg",
-      "PackagePath": "staticwebassets\\tpl\\assets\\img\\gallery\\gallery-3.jpg"
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\gallery\\kho-2.jpeg",
+      "PackagePath": "staticwebassets\\tpl\\assets\\img\\gallery\\kho-2.jpeg"
     },
     {
-      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\gallery\\gallery-4.jpg",
-      "PackagePath": "staticwebassets\\tpl\\assets\\img\\gallery\\gallery-4.jpg"
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\gallery\\kho-3.jpeg",
+      "PackagePath": "staticwebassets\\tpl\\assets\\img\\gallery\\kho-3.jpeg"
     },
     {
-      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\gallery\\gallery-5.jpg",
-      "PackagePath": "staticwebassets\\tpl\\assets\\img\\gallery\\gallery-5.jpg"
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\gallery\\kho-4.jpeg",
+      "PackagePath": "staticwebassets\\tpl\\assets\\img\\gallery\\kho-4.jpeg"
     },
     {
-      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\gallery\\gallery-6.jpg",
-      "PackagePath": "staticwebassets\\tpl\\assets\\img\\gallery\\gallery-6.jpg"
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\gallery\\sx-1.jpeg",
+      "PackagePath": "staticwebassets\\tpl\\assets\\img\\gallery\\sx-1.jpeg"
     },
     {
-      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\gallery\\gallery-7.jpg",
-      "PackagePath": "staticwebassets\\tpl\\assets\\img\\gallery\\gallery-7.jpg"
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\gallery\\sx-2.jpeg",
+      "PackagePath": "staticwebassets\\tpl\\assets\\img\\gallery\\sx-2.jpeg"
     },
     {
-      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\gallery\\gallery-8.jpg",
-      "PackagePath": "staticwebassets\\tpl\\assets\\img\\gallery\\gallery-8.jpg"
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\gallery\\sx-3.jpeg",
+      "PackagePath": "staticwebassets\\tpl\\assets\\img\\gallery\\sx-3.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\gallery\\sx-4.jpeg",
+      "PackagePath": "staticwebassets\\tpl\\assets\\img\\gallery\\sx-4.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\giamgia.jpeg",
+      "PackagePath": "staticwebassets\\tpl\\assets\\img\\giamgia.jpeg"
+    },
+    {
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\giamgia50.jpg",
+      "PackagePath": "staticwebassets\\tpl\\assets\\img\\giamgia50.jpg"
+    },
+    {
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\giovanggiamgia.jpeg",
+      "PackagePath": "staticwebassets\\tpl\\assets\\img\\giovanggiamgia.jpeg"
     },
     {
       "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\hero-img.png",
@@ -3023,6 +3075,10 @@
     {
       "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\menu\\menu-item-6.png",
       "PackagePath": "staticwebassets\\tpl\\assets\\img\\menu\\menu-item-6.png"
+    },
+    {
+      "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\mua1tang1.jpeg",
+      "PackagePath": "staticwebassets\\tpl\\assets\\img\\mua1tang1.jpeg"
     },
     {
       "Id": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\reservation.jpg",

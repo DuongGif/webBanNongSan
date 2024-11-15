@@ -802,7 +802,6 @@ D:\Web\webBanNongSan\TestTemplate\obj\Debug\net6.0\staticwebassets.development.j
 D:\Web\webBanNongSan\TestTemplate\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\Web\webBanNongSan\TestTemplate\obj\Debug\net6.0\scopedcss\bundle\TestTemplate.styles.css
 D:\Web\webBanNongSan\TestTemplate\obj\Debug\net6.0\scopedcss\projectbundle\TestTemplate.bundle.scp.css
-D:\Web\webBanNongSan\TestTemplate\obj\Debug\net6.0\TestTemplate.csproj.CopyComplete
 D:\Web\webBanNongSan\TestTemplate\obj\Debug\net6.0\TestTemplate.dll
 D:\Web\webBanNongSan\TestTemplate\obj\Debug\net6.0\refint\TestTemplate.dll
 D:\Web\webBanNongSan\TestTemplate\obj\Debug\net6.0\TestTemplate.pdb
@@ -1078,3 +1077,5 @@ D:\Git\Github\webBanNongSan\TestTemplate\obj\Debug\net6.0\refint\TestTemplate.dl
 D:\Git\Github\webBanNongSan\TestTemplate\obj\Debug\net6.0\TestTemplate.pdb
 D:\Git\Github\webBanNongSan\TestTemplate\obj\Debug\net6.0\TestTemplate.genruntimeconfig.cache
 D:\Git\Github\webBanNongSan\TestTemplate\obj\Debug\net6.0\ref\TestTemplate.dll
+D:\Web\webBanNongSan\TestTemplate\obj\Debug\net6.0\TestTemplate.sourcelink.json
+D:\Web\webBanNongSan\TestTemplate\obj\Debug\net6.0\TestTemp.D223B236.Up2Date

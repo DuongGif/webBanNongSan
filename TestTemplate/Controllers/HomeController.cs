@@ -43,12 +43,22 @@ namespace TestTemplate.Controllers
         public IActionResult ChiTietNongSan(string maNongSan)
         {
             var nongSan = db.NongSans.FirstOrDefault(x => x.MaNongSan == maNongSan);
-            return View(nongSan);
+            if (nongSan == null)
+            {
+                return NotFound();
+            }
+
+            var khuyenMai = db.KhuyenMais.Where(x => x.MaNongSan == maNongSan).ToList();
+
+            ViewBag.NongSan = nongSan;  
+            ViewBag.KhuyenMai = khuyenMai;  
+
+            return View();
         }
 
         public IActionResult LoadNongSan(int page = 1)
         {
-            var listNongSan = db.NongSans.ToPagedList(page, 10); // 10 sản phẩm mỗi trang
+            var listNongSan = db.NongSans.ToPagedList(page, 10); 
             return PartialView("_NongSanPartial", listNongSan);
         }
 

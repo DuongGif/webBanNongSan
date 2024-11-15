@@ -293,7 +293,11 @@
                             <i class="bi bi-circle"></i><span>Danh Mục Nông Sản</span>
                         </a>
                     </li>
-                   
+                    <li>
+                        <a style="cursor:pointer" asp-area="Admin" asp-controller="HomeAdmin" asp-action="DanhMucNhaCungCap">
+                            <i class="bi bi-circle"></i><span>Danh mục nhà cung cấp</span>
+                        </a>
+                    </li>
                     <li>
                         <a href="components-tooltips.html">
                             <i class="bi bi-circle"></i><span>Tooltips</span>
@@ -492,6 +496,7 @@
 
     <!-- Template Main JS File -->
     <script src="~/admin/assets/js/main.js"></script>
+    @RenderSection("Scripts", required: false)
 
 </body>
 

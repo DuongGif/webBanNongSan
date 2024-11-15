@@ -10,11 +10,17 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TestTemplate
 build_property.RootNamespace = TestTemplate
 build_property.ProjectDir = D:\Web\webBanNongSan\TestTemplate\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = D:\Web\webBanNongSan\TestTemplate
 build_property._RazorSourceGeneratorDebug = 
+
+[D:/Web/webBanNongSan/TestTemplate/Areas/Admin/Views/HomeAdmin/DanhMucNhaCungCap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERhbmhNdWNOaGFDdW5nQ2FwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Web/webBanNongSan/TestTemplate/Areas/Admin/Views/HomeAdmin/DanhMucNongSan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERhbmhNdWNOb25nU2FuLmNzaHRtbA==
@@ -24,12 +30,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Web/webBanNongSan/TestTemplate/Areas/Admin/Views/HomeAdmin/SuaNhaCungCap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFN1YU5oYUN1bmdDYXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Web/webBanNongSan/TestTemplate/Areas/Admin/Views/HomeAdmin/SuaNongSan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFN1YU5vbmdTYW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Web/webBanNongSan/TestTemplate/Areas/Admin/Views/HomeAdmin/ThemAnhNongSan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRoZW1BbmhOb25nU2FuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web/webBanNongSan/TestTemplate/Areas/Admin/Views/HomeAdmin/ThemNhaCungCapMoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRoZW1OaGFDdW5nQ2FwTW9pLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Web/webBanNongSan/TestTemplate/Areas/Admin/Views/HomeAdmin/ThemNongSanMoi.cshtml]
@@ -42,6 +56,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Web/webBanNongSan/TestTemplate/Views/Access/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Web/webBanNongSan/TestTemplate/Views/Access/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXFJlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Web/webBanNongSan/TestTemplate/Views/Home/ChiTietNongSan.cshtml]

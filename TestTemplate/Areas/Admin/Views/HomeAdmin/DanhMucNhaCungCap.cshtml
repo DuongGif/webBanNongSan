@@ -1,0 +1,54 @@
+﻿@model IEnumerable<TestTemplate.Models.NhaCungCap>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "DahMucNhaCungCap";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>DanhMucNhaCungCap</h1>
+
+<p>
+    <a asp-action="ThemNhaCungCapMoi" class="btn btn-xs btn-success">Thêm nhà cung cấp mới</a>
+</p>
+<p>@TempData["Message"]</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Mã nhà cung cấp
+            </th>
+            <th>
+                Tên nhà cung cấp
+            </th>
+            <th>
+                Địa chỉ
+            </th>
+            <th>
+                Số điện thoại
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaNhaCungCap)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenNhaCungCap)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiaChi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SoDienThoai)
+            </td>
+            <td>
+                <a asp-action="SuaNhaCungCap" asp-route-maNhaCungCap="@item.MaNhaCungCap">Sửa</a> |
+                <a asp-action="XoaNhaCungCap" asp-route-maNhaCungCap="@item.MaNhaCungCap">Xóa</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
