@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Web\\webBanNongSan\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A65D7DBA-30E6-4D0C-A418-E8EE31FBB9D4}|TestTemplate\\TestTemplate.csproj|d:\\web\\webbannongsan\\testtemplate\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A65D7DBA-30E6-4D0C-A418-E8EE31FBB9D4}|TestTemplate\\TestTemplate.csproj|solutionrelative:testtemplate\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A65D7DBA-30E6-4D0C-A418-E8EE31FBB9D4}|TestTemplate\\TestTemplate.csproj|d:\\web\\webbannongsan\\testtemplate\\areas\\admin\\views\\homeadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A65D7DBA-30E6-4D0C-A418-E8EE31FBB9D4}|TestTemplate\\TestTemplate.csproj|solutionrelative:testtemplate\\areas\\admin\\views\\homeadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A65D7DBA-30E6-4D0C-A418-E8EE31FBB9D4}|TestTemplate\\TestTemplate.csproj|d:\\web\\webbannongsan\\testtemplate\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A65D7DBA-30E6-4D0C-A418-E8EE31FBB9D4}|TestTemplate\\TestTemplate.csproj|solutionrelative:testtemplate\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A65D7DBA-30E6-4D0C-A418-E8EE31FBB9D4}|TestTemplate\\TestTemplate.csproj|d:\\web\\webbannongsan\\testtemplate\\views\\shared\\_layouttpl.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A65D7DBA-30E6-4D0C-A418-E8EE31FBB9D4}|TestTemplate\\TestTemplate.csproj|solutionrelative:testtemplate\\views\\shared\\_layouttpl.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A65D7DBA-30E6-4D0C-A418-E8EE31FBB9D4}|TestTemplate\\TestTemplate.csproj|d:\\web\\webbannongsan\\testtemplate\\areas\\admin\\views\\homeadmin\\danhmucnhacungcap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A65D7DBA-30E6-4D0C-A418-E8EE31FBB9D4}|TestTemplate\\TestTemplate.csproj|d:\\web\\webbannongsan\\testtemplate\\wwwroot\\tpl\\assets\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A65D7DBA-30E6-4D0C-A418-E8EE31FBB9D4}|TestTemplate\\TestTemplate.csproj|solutionrelative:testtemplate\\wwwroot\\tpl\\assets\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A65D7DBA-30E6-4D0C-A418-E8EE31FBB9D4}|TestTemplate\\TestTemplate.csproj|d:\\web\\webbannongsan\\testtemplate\\views\\shared\\_layouttpl.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A65D7DBA-30E6-4D0C-A418-E8EE31FBB9D4}|TestTemplate\\TestTemplate.csproj|solutionrelative:testtemplate\\views\\shared\\_layouttpl.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A65D7DBA-30E6-4D0C-A418-E8EE31FBB9D4}|TestTemplate\\TestTemplate.csproj|d:\\web\\webbannongsan\\testtemplate\\views\\shared\\_layoutdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -138,7 +138,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 161,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -154,56 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_LayoutAdmin.cshtml",
-              "DocumentMoniker": "D:\\Web\\webBanNongSan\\TestTemplate\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeDocumentMoniker": "TestTemplate\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ToolTip": "D:\\Web\\webBanNongSan\\TestTemplate\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeToolTip": "TestTemplate\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AgIAAA0BAAAAAAAAAAAewFwBAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-27T01:36:33.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Web\\webBanNongSan\\TestTemplate\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
-              "RelativeDocumentMoniker": "TestTemplate\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
-              "ToolTip": "D:\\Web\\webBanNongSan\\TestTemplate\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
-              "RelativeToolTip": "TestTemplate\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
-              "ViewState": "AgIAAK0BAAAAAAAAAAAewLoBAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T08:37:57.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DanhMucNhaCungCap.cshtml",
-              "DocumentMoniker": "D:\\Web\\webBanNongSan\\TestTemplate\\Areas\\Admin\\Views\\HomeAdmin\\DanhMucNhaCungCap.cshtml",
-              "RelativeDocumentMoniker": "TestTemplate\\Areas\\Admin\\Views\\HomeAdmin\\DanhMucNhaCungCap.cshtml",
-              "ToolTip": "D:\\Web\\webBanNongSan\\TestTemplate\\Areas\\Admin\\Views\\HomeAdmin\\DanhMucNhaCungCap.cshtml",
-              "RelativeToolTip": "TestTemplate\\Areas\\Admin\\Views\\HomeAdmin\\DanhMucNhaCungCap.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T08:12:52.347Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeAdminController.cs",
-              "DocumentMoniker": "D:\\Web\\webBanNongSan\\TestTemplate\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
-              "RelativeDocumentMoniker": "TestTemplate\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
-              "ToolTip": "D:\\Web\\webBanNongSan\\TestTemplate\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
-              "RelativeToolTip": "TestTemplate\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
-              "ViewState": "AgIAAJ0AAAAAAAAAAAAAALIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T01:36:34.198Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "style.css",
               "DocumentMoniker": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\admin\\assets\\css\\style.css",
               "RelativeDocumentMoniker": "TestTemplate\\wwwroot\\admin\\assets\\css\\style.css",
@@ -215,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "main.css",
               "DocumentMoniker": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\css\\main.css",
               "RelativeDocumentMoniker": "TestTemplate\\wwwroot\\tpl\\assets\\css\\main.css",
@@ -239,15 +190,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "_LayoutTpl.cshtml",
               "DocumentMoniker": "D:\\Web\\webBanNongSan\\TestTemplate\\Views\\Shared\\_LayoutTpl.cshtml",
               "RelativeDocumentMoniker": "TestTemplate\\Views\\Shared\\_LayoutTpl.cshtml",
               "ToolTip": "D:\\Web\\webBanNongSan\\TestTemplate\\Views\\Shared\\_LayoutTpl.cshtml",
               "RelativeToolTip": "TestTemplate\\Views\\Shared\\_LayoutTpl.cshtml",
-              "ViewState": "AgIAABAEAAAAAAAAAAApwCcEAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABAEAAAAAAAAAAApwDUEAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-27T01:36:34.195Z"
+              "WhenOpened": "2024-10-27T01:36:34.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "D:\\Web\\webBanNongSan\\TestTemplate\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "TestTemplate\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "D:\\Web\\webBanNongSan\\TestTemplate\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml*",
+              "RelativeToolTip": "TestTemplate\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml*",
+              "ViewState": "AgIAAC0BAAAAAAAAAAAUwEQBAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-27T01:36:33.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Web\\webBanNongSan\\TestTemplate\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "TestTemplate\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
+              "ToolTip": "D:\\Web\\webBanNongSan\\TestTemplate\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml*",
+              "RelativeToolTip": "TestTemplate\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml*",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T08:37:57.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeAdminController.cs",
+              "DocumentMoniker": "D:\\Web\\webBanNongSan\\TestTemplate\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "RelativeDocumentMoniker": "TestTemplate\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "ToolTip": "D:\\Web\\webBanNongSan\\TestTemplate\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "RelativeToolTip": "TestTemplate\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAAALIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T01:36:34.198Z"
             },
             {
               "$type": "Document",
@@ -276,6 +274,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "DanhMucNhaCungCap.cshtml",
+              "DocumentMoniker": "D:\\Web\\webBanNongSan\\TestTemplate\\Areas\\Admin\\Views\\HomeAdmin\\DanhMucNhaCungCap.cshtml",
+              "RelativeDocumentMoniker": "TestTemplate\\Areas\\Admin\\Views\\HomeAdmin\\DanhMucNhaCungCap.cshtml",
+              "ToolTip": "D:\\Web\\webBanNongSan\\TestTemplate\\Areas\\Admin\\Views\\HomeAdmin\\DanhMucNhaCungCap.cshtml",
+              "RelativeToolTip": "TestTemplate\\Areas\\Admin\\Views\\HomeAdmin\\DanhMucNhaCungCap.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T08:12:52.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DanhMucNongSan.cshtml",
               "DocumentMoniker": "D:\\Web\\webBanNongSan\\TestTemplate\\Areas\\Admin\\Views\\HomeAdmin\\DanhMucNongSan.cshtml",
               "RelativeDocumentMoniker": "TestTemplate\\Areas\\Admin\\Views\\HomeAdmin\\DanhMucNongSan.cshtml",
@@ -536,14 +546,6 @@
               "ViewState": "AQIAACEAAAAAAAAAAAAAAC0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T01:36:34.188Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         },

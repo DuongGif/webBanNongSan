@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QNiUQU0znV9rbemU8/MvuIHQQYbvpNl0X6tDCjOR1eo=",
+  "Hash": "qYZAAawAEY4XEH377fFuaSYS2mXChSZk2upUBQBmuh0=",
   "Source": "TestTemplate",
   "BasePath": "_content/TestTemplate",
   "Mode": "Default",
@@ -12650,6 +12650,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\tpl\\assets\\img\\mua1tang1.jpeg"
+    },
+    {
+      "Identity": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\raucaixanh.jpeg",
+      "SourceId": "TestTemplate",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\",
+      "BasePath": "_content/TestTemplate",
+      "RelativePath": "tpl/assets/img/raucaixanh.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\tpl\\assets\\img\\raucaixanh.jpeg"
     },
     {
       "Identity": "D:\\Web\\webBanNongSan\\TestTemplate\\wwwroot\\tpl\\assets\\img\\reservation.jpg",
