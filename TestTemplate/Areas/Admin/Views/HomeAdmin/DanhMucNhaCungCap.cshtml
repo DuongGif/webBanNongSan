@@ -1,4 +1,7 @@
-﻿@model IEnumerable<TestTemplate.Models.NhaCungCap>
+﻿@using TestTemplate.Models;
+@using X.PagedList.Mvc.Core;
+@using X.PagedList;
+@model X.PagedList.IPagedList<NhaCungCap>;
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
     ViewData["Title"] = "DahMucNhaCungCap";
@@ -52,3 +55,6 @@
 }
     </tbody>
 </table>
+<div class="product__pagination">
+    @Html.PagedListPager(Model, page => Url.Action("DanhMucNongSan", new { page = page }))
+</div>
