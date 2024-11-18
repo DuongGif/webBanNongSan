@@ -36,6 +36,7 @@ namespace TestTemplate.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult ThemNongSanMoi()
         {
+            // Tạo danh sách các lựa chọn cho dropdown list
             ViewBag.MaLoai = new SelectList(db.LoaiNongSans.ToList(), "MaLoai", "TenLoai");
             ViewBag.MaNhaCungCap = new SelectList(db.NhaCungCaps.ToList(), "MaNhaCungCap", "TenNhaCungCap");
             return View();
@@ -46,14 +47,19 @@ namespace TestTemplate.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult ThemNongSanMoi(NongSan nongsan)
         {
-            if (ModelState.IsValid)
+            if (ModelState.IsValid) // Kiểm tra nếu model hợp lệ
             {
-                db.NongSans.Add(nongsan);
-                db.SaveChanges();
-                return RedirectToAction("DanhMucNongSan");
+                db.NongSans.Add(nongsan); // Thêm nông sản vào cơ sở dữ liệu
+                db.SaveChanges(); // Lưu thay đổi
+                return RedirectToAction("DanhMucNongSan"); // Chuyển hướng tới danh mục nông sản
             }
-            return View(nongsan);
+
+            // Nếu có lỗi validation, quay lại trang thêm nông sản và hiển thị lỗi
+            ViewBag.MaLoai = new SelectList(db.LoaiNongSans.ToList(), "MaLoai", "TenLoai");
+            ViewBag.MaNhaCungCap = new SelectList(db.NhaCungCaps.ToList(), "MaNhaCungCap", "TenNhaCungCap");
+            return View(nongsan); // Trả về view với model chứa lỗi
         }
+
 
 
         [Route("SuaNongSan")]
@@ -89,7 +95,7 @@ namespace TestTemplate.Areas.Admin.Controllers
             if (chiTietNongSan.Count > 0)
             {
                 TempData["Message"] = "Không xóa được nông sản này";
-                return RedirectToAction("DanhMucNongSan", "HomeAmin");
+                return RedirectToAction("DanhMucNongSan", "HomeAdmin");
             }
             var anhNongSan = db.AnhNongSans.Where(x => x.MaNongSan == maNongSan);
             if (anhNongSan.Any()) db.RemoveRange(anhNongSan);
@@ -163,6 +169,80 @@ namespace TestTemplate.Areas.Admin.Controllers
             return RedirectToAction("DanhMucNongSan", "HomeAdmin");
         }
 
+        // nha cung cap
+        [Route("DanhMucNhaCungCap")]
+        public IActionResult DanhMucNhaCungCap(int? page)
+        {
+            int pageSize = 8;
+            int pageNumber = page == null || page < 1 ? 1 : page.Value;
+            var listncc = db.NhaCungCaps.OrderBy(x => x.TenNhaCungCap);
+            PagedList<NhaCungCap> list = new PagedList<NhaCungCap>(listncc, pageNumber, pageSize);
+            return View(list);
+        }
+        [Route("ThemNhaCungCapMoi")]
+        [HttpGet]
+        public IActionResult ThemNhaCungCapMoi()
+        {
+            return View();
+        }
 
+        [Route("ThemNhaCungCapMoi")]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult ThemNhaCungCapMoi(NhaCungCap NhaCungCap)
+        {
+            if (ModelState.IsValid)
+            {
+                db.NhaCungCaps.Add(NhaCungCap); 
+                db.SaveChanges(); 
+                return RedirectToAction("DanhMucNhaCungCap");
+            }
+            return View(NhaCungCap); 
+        }
+
+        [Route("SuaNhaCungCap")]
+        [HttpGet]
+        public IActionResult SuaNhaCungCap(string maNhaCungCap)
+        {
+           
+            var nhacungcap = db.NhaCungCaps.Find(maNhaCungCap);
+            return View(nhacungcap);
+        }
+
+        [Route("SuaNhaCungCap")]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult SuaNhaCungCap(NhaCungCap nhacungcap)
+        {
+            if (ModelState.IsValid)
+            {
+                db.Entry(nhacungcap).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("DanhMucNhaCungCap", "HomeAdmin");
+            }
+            return View(nhacungcap);
+        }
+
+
+        [Route("XoaNhaCungCap")]
+        [HttpGet]
+        public IActionResult XoaNhaCungCap(string maNhaCungCap)
+        {
+            TempData["Message"] = "";
+            
+            var nhacungcap = db.NongSans.Where(x => x.MaNhaCungCap == maNhaCungCap).ToList();
+            if (nhacungcap.Count > 0)
+            {
+                TempData["Message"] = "Không xóa được nhà cung cấp này vì vẫn đang có nông sản đang bán";
+                return RedirectToAction("DanhMucNhaCungCap", "HomeAdmin");
+            }
+
+            db.Remove(db.NhaCungCaps.Find(maNhaCungCap));
+            db.SaveChanges();
+            TempData["Message"] = "Nhà cung cấp đã được xóa";
+            return RedirectToAction("DanhMucNhaCungCap", "HomeAdmin");
+
+
+        }
     }
 }

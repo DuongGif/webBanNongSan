@@ -3,7 +3,15 @@
     ViewData["Title"] = "Index";
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
 }
-
+<div class="pagetitle">
+    <h1>Bảng điều khiển</h1>
+    <nav>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-controller="HomeAdmin" asp-action="Index">Trang chủ</a></li>
+            <li class="breadcrumb-item active">Bảng điều khiển</li>
+        </ol>
+    </nav>
+</div><!-- End Page Title -->
 <section class="section dashboard">
     <div class="row">
 
@@ -19,25 +27,25 @@
                             <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
                             <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
                                 <li class="dropdown-header text-start">
-                                    <h6>Filter</h6>
+                                    <h6>Lọc</h6>
                                 </li>
 
-                                <li><a class="dropdown-item" href="#">Today</a></li>
-                                <li><a class="dropdown-item" href="#">This Month</a></li>
-                                <li><a class="dropdown-item" href="#">This Year</a></li>
+                                <li><a class="dropdown-item" href="#">Hôm nay</a></li>
+                                <li><a class="dropdown-item" href="#">Tháng nay</a></li>
+                                <li><a class="dropdown-item" href="#">Năm nay</a></li>
                             </ul>
                         </div>
 
                         <div class="card-body">
-                            <h5 class="card-title">Sales <span>| Today</span></h5>
+                            <h5 class="card-title">Đơn hàng <span>| Hôm nay</span></h5>
 
                             <div class="d-flex align-items-center">
                                 <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
                                     <i class="bi bi-cart"></i>
                                 </div>
                                 <div class="ps-3">
-                                    <h6>145</h6>
-                                    <span class="text-success small pt-1 fw-bold">12%</span> <span class="text-muted small pt-2 ps-1">increase</span>
+                                    <h6>1.450</h6>
+                                    <span class="text-muted small pt-2 ps-1">tăng  </span><span class="text-success small pt-1 fw-bold">12%</span>
 
                                 </div>
                             </div>
@@ -53,25 +61,25 @@
                             <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
                             <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
                                 <li class="dropdown-header text-start">
-                                    <h6>Filter</h6>
+                                    <h6>Lọc</h6>
                                 </li>
 
-                                <li><a class="dropdown-item" href="#">Today</a></li>
-                                <li><a class="dropdown-item" href="#">This Month</a></li>
-                                <li><a class="dropdown-item" href="#">This Year</a></li>
+                                <li><a class="dropdown-item" href="#">Hôm nay</a></li>
+                                <li><a class="dropdown-item" href="#">Tháng nay</a></li>
+                                <li><a class="dropdown-item" href="#">Năm nay</a></li>
                             </ul>
                         </div>
 
                         <div class="card-body">
-                            <h5 class="card-title">Revenue <span>| This Month</span></h5>
+                            <h5 class="card-title">Doanh thu <span>| Tháng này</span></h5>
 
                             <div class="d-flex align-items-center">
                                 <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
                                     <i class="bi bi-currency-dollar"></i>
                                 </div>
                                 <div class="ps-3">
-                                    <h6>$3,264</h6>
-                                    <span class="text-success small pt-1 fw-bold">8%</span> <span class="text-muted small pt-2 ps-1">increase</span>
+                                    <h6>$30,264</h6>
+                                    <span class="text-muted small pt-2 ps-1">tăng</span> <span class="text-success small pt-1 fw-bold">8%</span>
 
                                 </div>
                             </div>
@@ -88,25 +96,25 @@
                             <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
                             <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
                                 <li class="dropdown-header text-start">
-                                    <h6>Filter</h6>
+                                    <h6>Lọc</h6>
                                 </li>
 
-                                <li><a class="dropdown-item" href="#">Today</a></li>
-                                <li><a class="dropdown-item" href="#">This Month</a></li>
-                                <li><a class="dropdown-item" href="#">This Year</a></li>
+                                <li><a class="dropdown-item" href="#">Hôm nay</a></li>
+                                <li><a class="dropdown-item" href="#">Tháng nay</a></li>
+                                <li><a class="dropdown-item" href="#">Năm nay</a></li>
                             </ul>
                         </div>
 
                         <div class="card-body">
-                            <h5 class="card-title">Customers <span>| This Year</span></h5>
+                            <h5 class="card-title">Khách hàng <span>| Năm nay</span></h5>
 
                             <div class="d-flex align-items-center">
                                 <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
                                     <i class="bi bi-people"></i>
                                 </div>
                                 <div class="ps-3">
-                                    <h6>1244</h6>
-                                    <span class="text-danger small pt-1 fw-bold">12%</span> <span class="text-muted small pt-2 ps-1">decrease</span>
+                                    <h6>1.244.000</h6>
+                                    <span class="text-muted small pt-2 ps-1">Giảm</span> <span class="text-danger small pt-1 fw-bold">12%</span>
 
                                 </div>
                             </div>
@@ -123,17 +131,17 @@
                             <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
                             <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
                                 <li class="dropdown-header text-start">
-                                    <h6>Filter</h6>
+                                    <h6>Lọc</h6>
                                 </li>
 
-                                <li><a class="dropdown-item" href="#">Today</a></li>
-                                <li><a class="dropdown-item" href="#">This Month</a></li>
-                                <li><a class="dropdown-item" href="#">This Year</a></li>
+                                <li><a class="dropdown-item" href="#">Hôm nay</a></li>
+                                <li><a class="dropdown-item" href="#">Tháng nay</a></li>
+                                <li><a class="dropdown-item" href="#">Năm nay</a></li>
                             </ul>
                         </div>
 
                         <div class="card-body">
-                            <h5 class="card-title">Reports <span>/Today</span></h5>
+                            <h5 class="card-title">Báo cáo <span>/Hôm nay</span></h5>
 
                             <!-- Line Chart -->
                             <div id="reportsChart" class="" style="min-height: 365px;">
@@ -141,7 +149,7 @@
                                     <svg id="SvgjsSvg1194" width="601" height="350" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" class="apexcharts-svg apexcharts-zoomable" xmlns:data="ApexChartsNS" transform="translate(0, 0)">
                                         <foreignObject x="0" y="0" width="601" height="350">
                                             <div class="apexcharts-legend apexcharts-align-center apx-legend-position-bottom" xmlns="http://www.w3.org/1999/xhtml" style="inset: auto 0px 1px; position: absolute; max-height: 175px;">
-                                                <div class="apexcharts-legend-series" rel="1" seriesname="Sales" data:collapsed="false" style="margin: 4px 5px;">
+                                                <div class="apexcharts-legend-series" rel="1" seriesname="Đơn hàng" data:collapsed="false" style="margin: 4px 5px;">
                                                     <span class="apexcharts-legend-marker" rel="1" data:collapsed="false" style="height: 16px; width: 16px; left: 0px; top: 0px;">
                                                         <svg id="SvgjsSvg1197" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev">
                                                             <defs id="SvgjsDefs1198"><clipPath id="gridRectMaskf6f0wjan"><rect id="SvgjsRect1216" width="557.7604160308838" height="270.99999923706054" x="-3" y="-3" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath><clipPath id="forecastMaskf6f0wjan"></clipPath><clipPath id="nonForecastMaskf6f0wjan"></clipPath><clipPath id="gridRectMarkerMaskf6f0wjan"><rect id="SvgjsRect1217" width="599.7604160308838" height="312.99999923706054" x="-24" y="-24" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath></defs>
@@ -150,8 +158,8 @@
            a 7,7 0 1,0 14,0
            a 7,7 0 1,0 -14,0" fill="#4154f1" fill-opacity="1" stroke="#ffffff" stroke-opacity="0.9" stroke-linecap="butt" stroke-width="1" stroke-dasharray="0" cx="0" cy="0" shape="circle" class="apexcharts-legend-marker apexcharts-marker apexcharts-marker-circle" style="transform: translate(50%, 50%);"></path>
                                                         </svg>
-                                                    </span><span class="apexcharts-legend-text" rel="1" i="0" data:default-text="Sales" data:collapsed="false" style="color: rgb(55, 61, 63); font-size: 12px; font-weight: 400; font-family: Helvetica, Arial, sans-serif;">Sales</span>
-                                                </div><div class="apexcharts-legend-series" rel="2" seriesname="Revenue" data:collapsed="false" style="margin: 4px 5px;">
+                                                    </span><span class="apexcharts-legend-text" rel="1" i="0" data:default-text="Sales" data:collapsed="false" style="color: rgb(55, 61, 63); font-size: 12px; font-weight: 400; font-family: Helvetica, Arial, sans-serif;">Đơn hàng</span>
+                                                </div><div class="apexcharts-legend-series" rel="2" seriesname="Doanh thu" data:collapsed="false" style="margin: 4px 5px;">
                                                     <span class="apexcharts-legend-marker" rel="2" data:collapsed="false" style="height: 16px; width: 16px; left: 0px; top: 0px;">
                                                         <svg id="SvgjsSvg1200" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev">
                                                             <defs id="SvgjsDefs1201"></defs>
@@ -160,8 +168,8 @@
            a 7,7 0 1,0 14,0
            a 7,7 0 1,0 -14,0" fill="#2eca6a" fill-opacity="1" stroke="#ffffff" stroke-opacity="0.9" stroke-linecap="butt" stroke-width="1" stroke-dasharray="0" cx="0" cy="0" shape="circle" class="apexcharts-legend-marker apexcharts-marker apexcharts-marker-circle" style="transform: translate(50%, 50%);"></path>
                                                         </svg>
-                                                    </span><span class="apexcharts-legend-text" rel="2" i="1" data:default-text="Revenue" data:collapsed="false" style="color: rgb(55, 61, 63); font-size: 12px; font-weight: 400; font-family: Helvetica, Arial, sans-serif;">Revenue</span>
-                                                </div><div class="apexcharts-legend-series" rel="3" seriesname="Customers" data:collapsed="false" style="margin: 4px 5px;">
+                                                    </span><span class="apexcharts-legend-text" rel="2" i="1" data:default-text="Revenue" data:collapsed="false" style="color: rgb(55, 61, 63); font-size: 12px; font-weight: 400; font-family: Helvetica, Arial, sans-serif;">Doanh thu</span>
+                                                </div><div class="apexcharts-legend-series" rel="3" seriesname="Khách hàng" data:collapsed="false" style="margin: 4px 5px;">
                                                     <span class="apexcharts-legend-marker" rel="3" data:collapsed="false" style="height: 16px; width: 16px; left: 0px; top: 0px;">
                                                         <svg id="SvgjsSvg1203" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev">
                                                             <defs id="SvgjsDefs1204"></defs>
@@ -170,7 +178,7 @@
            a 7,7 0 1,0 14,0
            a 7,7 0 1,0 -14,0" fill="#ff771d" fill-opacity="1" stroke="#ffffff" stroke-opacity="0.9" stroke-linecap="butt" stroke-width="1" stroke-dasharray="0" cx="0" cy="0" shape="circle" class="apexcharts-legend-marker apexcharts-marker apexcharts-marker-circle" style="transform: translate(50%, 50%);"></path>
                                                         </svg>
-                                                    </span><span class="apexcharts-legend-text" rel="3" i="2" data:default-text="Customers" data:collapsed="false" style="color: rgb(55, 61, 63); font-size: 12px; font-weight: 400; font-family: Helvetica, Arial, sans-serif;">Customers</span>
+                                                    </span><span class="apexcharts-legend-text" rel="3" i="2" data:default-text="Customers" data:collapsed="false" style="color: rgb(55, 61, 63); font-size: 12px; font-weight: 400; font-family: Helvetica, Arial, sans-serif;">Khách hàng</span>
                                                 </div>
                                             </div><style type="text/css">
                                                       .apexcharts-legend {
@@ -365,13 +373,13 @@
                                 document.addEventListener("DOMContentLoaded", () => {
                                     new ApexCharts(document.querySelector("#reportsChart"), {
                                         series: [{
-                                            name: 'Sales',
+                                            name: 'Đơn hàng',
                                             data: [31, 40, 28, 51, 42, 82, 56],
                                         }, {
-                                            name: 'Revenue',
+                                            name: 'Doanh thu',
                                             data: [11, 32, 45, 32, 34, 52, 41]
                                         }, {
-                                            name: 'Customers',
+                                            name: 'Khách hàng',
                                             data: [15, 11, 32, 18, 9, 24, 11]
                                         }],
                                         chart: {
@@ -427,32 +435,32 @@
                             <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
                             <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
                                 <li class="dropdown-header text-start">
-                                    <h6>Filter</h6>
+                                    <h6>Lọc</h6>
                                 </li>
 
-                                <li><a class="dropdown-item" href="#">Today</a></li>
-                                <li><a class="dropdown-item" href="#">This Month</a></li>
-                                <li><a class="dropdown-item" href="#">This Year</a></li>
+                                <li><a class="dropdown-item" href="#">Hôm nay</a></li>
+                                <li><a class="dropdown-item" href="#">Tháng nay</a></li>
+                                <li><a class="dropdown-item" href="#">Năm nay</a></li>
                             </ul>
                         </div>
 
                         <div class="card-body">
-                            <h5 class="card-title">Recent Sales <span>| Today</span></h5>
+                            <h5 class="card-title">Doanh số gần đây <span>| Hôm nay</span></h5>
 
                             <div class="datatable-wrapper datatable-loading no-footer sortable searchable fixed-columns">
                                 <div class="datatable-top">
                                     <div class="datatable-dropdown">
                                         <label>
-                                            <select class="datatable-selector" name="per-page"><option value="5">5</option><option value="10" selected="">10</option><option value="15">15</option><option value="-1">All</option></select> entries per page
+                                            <select class="datatable-selector" name="per-page"><option value="5">5</option><option value="10" selected="">10</option><option value="15">15</option><option value="-1">All</option></select> số mục trên mỗi trang
                                         </label>
                                     </div>
                                     <div class="datatable-search">
-                                        <input class="datatable-input" placeholder="Search..." type="search" name="search" title="Search within table">
+                                        <input class="datatable-input" placeholder="Tìm kiếm..." type="search" name="search" title="Search within table">
                                     </div>
                                 </div>
-                                <div class="datatable-container"><table class="table table-borderless datatable datatable-table"><thead><tr><th scope="col" data-sortable="true" style="width: 14.698795180722893%;"><button class="datatable-sorter">#</button></th><th scope="col" data-sortable="true" style="width: 24.096385542168676%;"><button class="datatable-sorter">Customer</button></th><th scope="col" data-sortable="true" style="width: 24.819277108433734%;"><button class="datatable-sorter">Product</button></th><th scope="col" data-sortable="true" style="width: 16.14457831325301%;"><button class="datatable-sorter">Price</button></th><th scope="col" data-sortable="true" class="red" style="width: 20.240963855421686%;"><button class="datatable-sorter">Status</button></th></tr></thead><tbody><tr data-index="0"><td scope="row"><a href="#">#2457</a></td><td>Brandon Jacob</td><td><a href="#" class="text-primary">At praesentium minu</a></td><td>$64</td><td class="green"><span class="badge bg-success">Approved</span></td></tr><tr data-index="1"><td scope="row"><a href="#">#2147</a></td><td>Bridie Kessler</td><td><a href="#" class="text-primary">Blanditiis dolor omnis similique</a></td><td>$47</td><td class="green"><span class="badge bg-warning">Pending</span></td></tr><tr data-index="2"><td scope="row"><a href="#">#2049</a></td><td>Ashleigh Langosh</td><td><a href="#" class="text-primary">At recusandae consectetur</a></td><td>$147</td><td class="green"><span class="badge bg-success">Approved</span></td></tr><tr data-index="3"><td scope="row"><a href="#">#2644</a></td><td>Angus Grady</td><td><a href="#" class="text-primar">Ut voluptatem id earum et</a></td><td>$67</td><td class="green"><span class="badge bg-danger">Rejected</span></td></tr><tr data-index="4"><td scope="row"><a href="#">#2644</a></td><td>Raheem Lehner</td><td><a href="#" class="text-primary">Sunt similique distinctio</a></td><td>$165</td><td class="green"><span class="badge bg-success">Approved</span></td></tr></tbody></table></div>
+                                <div class="datatable-container"><table class="table table-borderless datatable datatable-table"><thead><tr><th scope="col" data-sortable="true" style="width: 14.698795180722893%;"><button class="datatable-sorter">#</button></th><th scope="col" data-sortable="true" style="width: 24.096385542168676%;"><button class="datatable-sorter">Khách hàng</button></th><th scope="col" data-sortable="true" style="width: 24.819277108433734%;"><button class="datatable-sorter">Sản phẩm</button></th><th scope="col" data-sortable="true" style="width: 16.14457831325301%;"><button class="datatable-sorter">Giá</button></th><th scope="col" data-sortable="true" class="red" style="width: 20.240963855421686%;"><button class="datatable-sorter">Tình trạng</button></th></tr></thead><tbody><tr data-index="0"><td scope="row"><a href="#">#2457</a></td><td>Nguyễn Văn Hùng</td><td><a href="#" class="text-primary">Chuối tiêu</a></td><td>$64</td><td class="green"><span class="badge bg-success">Đã được phê duyệt</span></td></tr><tr data-index="1"><td scope="row"><a href="#">#2147</a></td><td>Trần Thị Mai</td><td><a href="#" class="text-primary">Dưa hấu ruột đỏ</a></td><td>$47</td><td class="green"><span class="badge bg-warning">Đang chờ xử lý</span></td></tr><tr data-index="2"><td scope="row"><a href="#">#2049</a></td><td>Lê Hoàng Nam</td><td><a href="#" class="text-primary">Ớt chuông vàng</a></td><td>$147</td><td class="green"><span class="badge bg-success">Đã được phê duyệt</span></td></tr><tr data-index="3"><td scope="row"><a href="#">#2644</a></td><td>Phạm Thúy Lan</td><td><a href="#" class="text-primar">Xoài cát Hòa Lộc</a></td><td>$67</td><td class="green"><span class="badge bg-danger">Bị từ chối</span></td></tr><tr data-index="4"><td scope="row"><a href="#">#2644</a></td><td>Đặng Minh Phúc</td><td><a href="#" class="text-primary">Bí đỏ hồ lô</a></td><td>$165</td><td class="green"><span class="badge bg-success">Đã được phê duyệt</span></td></tr></tbody></table></div>
                                 <div class="datatable-bottom">
-                                    <div class="datatable-info">Showing 1 to 5 of 5 entries</div>
+                                    <div class="datatable-info">Hiển thị từ 1 đến 5 trong tổng số 5 mục</div>
                                     <nav class="datatable-pagination"><ul class="datatable-pagination-list"></ul></nav>
                                 </div>
                             </div>
@@ -472,57 +480,57 @@
                                     <h6>Filter</h6>
                                 </li>
 
-                                <li><a class="dropdown-item" href="#">Today</a></li>
-                                <li><a class="dropdown-item" href="#">This Month</a></li>
-                                <li><a class="dropdown-item" href="#">This Year</a></li>
+                                <li><a class="dropdown-item" href="#">Hôm nay</a></li>
+                                <li><a class="dropdown-item" href="#">Tháng này</a></li>
+                                <li><a class="dropdown-item" href="#">Năm nay</a></li>
                             </ul>
                         </div>
 
                         <div class="card-body pb-0">
-                            <h5 class="card-title">Top Selling <span>| Today</span></h5>
+                            <h5 class="card-title">Top Bán Chạy <span>| Hôm nay</span></h5>
 
                             <table class="table table-borderless">
                                 <thead>
                                     <tr>
-                                        <th scope="col">Preview</th>
-                                        <th scope="col">Product</th>
-                                        <th scope="col">Price</th>
-                                        <th scope="col">Sold</th>
-                                        <th scope="col">Revenue</th>
+                                        <th scope="col">Xem trước</th>
+                                        <th scope="col">Sản phẩm</th>
+                                        <th scope="col">Giá</th>
+                                        <th scope="col">Đã bán</th>
+                                        <th scope="col">Doanh thu</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <th scope="row"><a href="#"><img src="assets/img/product-1.jpg" alt=""></a></th>
-                                        <td><a href="#" class="text-primary fw-bold">Ut inventore ipsa voluptas nulla</a></td>
+                                        <th scope="row"><a href="#"><img src="../tpl/assets/img/raucaixanh.jpeg" alt=""></a></th>
+                                        <td><a href="#" class="text-primary fw-bold">Rau cải xanh</a></td>
                                         <td>$64</td>
                                         <td class="fw-bold">124</td>
                                         <td>$5,828</td>
                                     </tr>
                                     <tr>
                                         <th scope="row"><a href="#"><img src="assets/img/product-2.jpg" alt=""></a></th>
-                                        <td><a href="#" class="text-primary fw-bold">Exercitationem similique doloremque</a></td>
+                                        <td><a href="#" class="text-primary fw-bold">Gạo nếp thơm</a></td>
                                         <td>$46</td>
                                         <td class="fw-bold">98</td>
                                         <td>$4,508</td>
                                     </tr>
                                     <tr>
                                         <th scope="row"><a href="#"><img src="assets/img/product-3.jpg" alt=""></a></th>
-                                        <td><a href="#" class="text-primary fw-bold">Doloribus nisi exercitationem</a></td>
+                                        <td><a href="#" class="text-primary fw-bold">Cà rốt Đà Lạt</a></td>
                                         <td>$59</td>
                                         <td class="fw-bold">74</td>
                                         <td>$4,366</td>
                                     </tr>
                                     <tr>
                                         <th scope="row"><a href="#"><img src="assets/img/product-4.jpg" alt=""></a></th>
-                                        <td><a href="#" class="text-primary fw-bold">Officiis quaerat sint rerum error</a></td>
+                                        <td><a href="#" class="text-primary fw-bold">Khoai lang mật</a></td>
                                         <td>$32</td>
                                         <td class="fw-bold">63</td>
                                         <td>$2,016</td>
                                     </tr>
                                     <tr>
                                         <th scope="row"><a href="#"><img src="assets/img/product-5.jpg" alt=""></a></th>
-                                        <td><a href="#" class="text-primary fw-bold">Sit unde debitis delectus repellendus</a></td>
+                                        <td><a href="#" class="text-primary fw-bold">Táo Fujis</a></td>
                                         <td>$79</td>
                                         <td class="fw-bold">41</td>
                                         <td>$3,239</td>
@@ -549,14 +557,14 @@
                             <h6>Filter</h6>
                         </li>
 
-                        <li><a class="dropdown-item" href="#">Today</a></li>
-                        <li><a class="dropdown-item" href="#">This Month</a></li>
-                        <li><a class="dropdown-item" href="#">This Year</a></li>
+                        <li><a class="dropdown-item" href="#">Hôm nay</a></li>
+                        <li><a class="dropdown-item" href="#">Tháng này</a></li>
+                        <li><a class="dropdown-item" href="#">Năm nay</a></li>
                     </ul>
                 </div>
 
                 <div class="card-body">
-                    <h5 class="card-title">Recent Activity <span>| Today</span></h5>
+                    <h5 class="card-title">Hoạt động gần đây <span>| Hôm nay</span></h5>
 
                     <div class="activity">
 
@@ -564,7 +572,7 @@
                             <div class="activite-label">32 min</div>
                             <i class="bi bi-circle-fill activity-badge text-success align-self-start"></i>
                             <div class="activity-content">
-                                Quia quae rerum <a href="#" class="fw-bold text-dark">explicabo officiis</a> beatae
+                                Nguyễn Văn Hùng <a href="#" class="fw-bold text-dark"> đã mua 5 kg gạo nếp thơm và 2 bó rau cải xanh</a> vào ngày 15/11/2024
                             </div>
                         </div><!-- End activity item-->
 
@@ -572,7 +580,7 @@
                             <div class="activite-label">56 min</div>
                             <i class="bi bi-circle-fill activity-badge text-danger align-self-start"></i>
                             <div class="activity-content">
-                                Voluptatem blanditiis blanditiis eveniet
+                                Trần Thị Mai đã đặt <a href="#" class="fw-bold text-dark">3 kg táo Fuji và 1 kg cà rốt Đà Lạt</a> vào ngày 14/11/2024, với yêu cầu giao hàng trong ngày.
                             </div>
                         </div><!-- End activity item-->
 
@@ -580,7 +588,7 @@
                             <div class="activite-label">2 hrs</div>
                             <i class="bi bi-circle-fill activity-badge text-primary align-self-start"></i>
                             <div class="activity-content">
-                                Voluptates corrupti molestias voluptatem
+                                Lê Hoàng Nam đã mua <a href="#" class="fw-bold text-dark"> 2 kg chuối tiêu và 1 quả bí đỏ hồ lô</a> trong chương trình khuyến mãi "Mua 2 tặng 1".
                             </div>
                         </div><!-- End activity item-->
 
@@ -588,7 +596,7 @@
                             <div class="activite-label">1 day</div>
                             <i class="bi bi-circle-fill activity-badge text-info align-self-start"></i>
                             <div class="activity-content">
-                                Tempore autem saepe <a href="#" class="fw-bold text-dark">occaecati voluptatem</a> tempore
+                                Phạm Thúy Lan đã mua <a href="#" class="fw-bold text-dark">3 kg dưa hấu ruột đỏ</a> và nhận ưu đãi miễn phí vận chuyển vì đơn hàng trên 200,000 VNĐ.
                             </div>
                         </div><!-- End activity item-->
 
@@ -596,7 +604,7 @@
                             <div class="activite-label">2 days</div>
                             <i class="bi bi-circle-fill activity-badge text-warning align-self-start"></i>
                             <div class="activity-content">
-                                Est sit eum reiciendis exercitationem
+                                Đặng Minh Phúc đã đặt hàng <a href="#" class="fw-bold text-dark"> 2 kg khoai lang mật và 1 kg xoài cát Hòa Lộc</a> trong chương trình "Giờ vàng giảm giá".
                             </div>
                         </div><!-- End activity item-->
 
@@ -604,7 +612,7 @@
                             <div class="activite-label">4 weeks</div>
                             <i class="bi bi-circle-fill activity-badge text-muted align-self-start"></i>
                             <div class="activity-content">
-                                Dicta dolorem harum nulla eius. Ut quidem quidem sit quas
+                                Hoàng Thanh Tùng đã mua <a href="#" class="fw-bold text-dark"> 1 kg ớt chuông vàng và 3 bó rau cải xanh</a> vào ngày 15/11/2024, sử dụng mã giảm giá 10%.
                             </div>
                         </div><!-- End activity item-->
 
@@ -621,14 +629,14 @@
                             <h6>Filter</h6>
                         </li>
 
-                        <li><a class="dropdown-item" href="#">Today</a></li>
-                        <li><a class="dropdown-item" href="#">This Month</a></li>
-                        <li><a class="dropdown-item" href="#">This Year</a></li>
+                        <li><a class="dropdown-item" href="#">Hôm nay</a></li>
+                        <li><a class="dropdown-item" href="#">Tháng này</a></li>
+                        <li><a class="dropdown-item" href="#">Năm nay</a></li>
                     </ul>
                 </div>
 
                 <div class="card-body pb-0">
-                    <h5 class="card-title">Budget Report <span>| This Month</span></h5>
+                    <h5 class="card-title">Báo cáo ngân sách <span>| Tháng này</span></h5>
 
                     <div id="budgetChart" style="min-height: 400px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);" class="echart" _echarts_instance_="ec_1729687759868"><div style="position: relative; width: 268px; height: 400px; padding: 0px; margin: 0px; border-width: 0px;"><canvas data-zr-dom-id="zr_0" width="402" height="600" style="position: absolute; left: 0px; top: 0px; width: 268px; height: 400px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div></div>
 
@@ -636,46 +644,46 @@
                         document.addEventListener("DOMContentLoaded", () => {
                             var budgetChart = echarts.init(document.querySelector("#budgetChart")).setOption({
                                 legend: {
-                                    data: ['Allocated Budget', 'Actual Spending']
+                                    data: ['Ngân sách được phân bổ', 'Chi tiêu thực tế']
                                 },
                                 radar: {
                                     // shape: 'circle',
                                     indicator: [{
-                                        name: 'Sales',
+                                        name: 'Bán hàng',
                                         max: 6500
                                     },
                                     {
-                                        name: 'Administration',
+                                        name: 'Quản lý',
                                         max: 16000
                                     },
                                     {
-                                        name: 'Information Technology',
+                                        name: 'Công nghệ thông tin',
                                         max: 30000
                                     },
                                     {
-                                        name: 'Customer Support',
+                                        name: 'Hỗ trợ Khách hàng',
                                         max: 38000
                                     },
                                     {
-                                        name: 'Development',
+                                        name: 'Phát triển',
                                         max: 52000
                                     },
                                     {
-                                        name: 'Marketing',
+                                        name: 'Tiếp thị',
                                         max: 25000
                                     }
                                     ]
                                 },
                                 series: [{
-                                    name: 'Budget vs spending',
+                                    name: 'Ngân sách so với chi tiêu',
                                     type: 'radar',
                                     data: [{
                                         value: [4200, 3000, 20000, 35000, 50000, 18000],
-                                        name: 'Allocated Budget'
+                                        name: 'Ngân sách được phân bổ'
                                     },
                                     {
                                         value: [5000, 14000, 28000, 26000, 42000, 21000],
-                                        name: 'Actual Spending'
+                                        name: 'Chi tiêu thực tế'
                                     }
                                     ]
                                 }]
@@ -694,14 +702,14 @@
                             <h6>Filter</h6>
                         </li>
 
-                        <li><a class="dropdown-item" href="#">Today</a></li>
-                        <li><a class="dropdown-item" href="#">This Month</a></li>
-                        <li><a class="dropdown-item" href="#">This Year</a></li>
+                        <li><a class="dropdown-item" href="#">Hôm nay</a></li>
+                        <li><a class="dropdown-item" href="#">Tháng này</a></li>
+                        <li><a class="dropdown-item" href="#">Năm nay</a></li>
                     </ul>
                 </div>
 
                 <div class="card-body pb-0">
-                    <h5 class="card-title">Website Traffic <span>| Today</span></h5>
+                    <h5 class="card-title">Lưu lượng truy cập website <span>| Hôm nay</span></h5>
 
                     <div id="trafficChart" style="min-height: 400px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative;" class="echart" _echarts_instance_="ec_1729687759869"><div style="position: relative; width: 268px; height: 400px; padding: 0px; margin: 0px; border-width: 0px;"><canvas data-zr-dom-id="zr_0" width="402" height="600" style="position: absolute; left: 0px; top: 0px; width: 268px; height: 400px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div><div class=""></div></div>
 
@@ -736,11 +744,11 @@
                                     },
                                     data: [{
                                         value: 1048,
-                                        name: 'Search Engine'
+                                        name: 'Công cụ tìm kiếm'
                                     },
                                     {
                                         value: 735,
-                                        name: 'Direct'
+                                        name: 'Trực tiếp'
                                     },
                                     {
                                         value: 580,
@@ -748,11 +756,11 @@
                                     },
                                     {
                                         value: 484,
-                                        name: 'Union Ads'
+                                        name: 'Quảng cáo cộng tác'
                                     },
                                     {
                                         value: 300,
-                                        name: 'Video Ads'
+                                        name: 'Quảng cáo video'
                                     }
                                     ]
                                 }]
@@ -771,44 +779,44 @@
                             <h6>Filter</h6>
                         </li>
 
-                        <li><a class="dropdown-item" href="#">Today</a></li>
-                        <li><a class="dropdown-item" href="#">This Month</a></li>
-                        <li><a class="dropdown-item" href="#">This Year</a></li>
+                        <li><a class="dropdown-item" href="#">Hôm nay</a></li>
+                        <li><a class="dropdown-item" href="#">Tháng này</a></li>
+                        <li><a class="dropdown-item" href="#">Năm nay</a></li>
                     </ul>
                 </div>
 
                 <div class="card-body pb-0">
-                    <h5 class="card-title">News &amp; Updates <span>| Today</span></h5>
+                    <h5 class="card-title">Tin tức & Cập nhật <span>| Hôm nay</span></h5>
 
                     <div class="news">
                         <div class="post-item clearfix">
                             <img src="assets/img/news-1.jpg" alt="">
-                            <h4><a href="#">Nihil blanditiis at in nihil autem</a></h4>
-                            <p>Sit recusandae non aspernatur laboriosam. Quia enim eligendi sed ut harum...</p>
+                            <h4><a href="#">Chương trình khuyến mãi tháng 11</a></h4>
+                            <p>Mua 2 tặng 1" áp dụng cho các sản phẩm rau củ tươi, kéo dài từ 15/11 đến 30/11/2024.</p>
                         </div>
 
                         <div class="post-item clearfix">
                             <img src="assets/img/news-2.jpg" alt="">
-                            <h4><a href="#">Quidem autem et impedit</a></h4>
-                            <p>Illo nemo neque maiores vitae officiis cum eum turos elan dries werona nande...</p>
+                            <h4><a href="#">Cập nhật sản phẩm mới</a></h4>
+                            <p>Cửa hàng vừa nhập về 100 kg gạo nếp thơm đặc sản miền Tây, đảm bảo chất lượng và giá ưu đãi.</p>
                         </div>
 
                         <div class="post-item clearfix">
                             <img src="assets/img/news-3.jpg" alt="">
-                            <h4><a href="#">Id quia et et ut maxime similique occaecati ut</a></h4>
-                            <p>Fugiat voluptas vero eaque accusantium eos. Consequuntur sed ipsam et totam...</p>
+                            <h4><a href="#">Thông báo nghỉ lễ</a></h4>
+                            <p>Cửa hàng sẽ tạm nghỉ giao dịch vào ngày 20 /11/2024 nhân dịp Ngày Nhà giáo Việt Nam.</p>
                         </div>
 
                         <div class="post-item clearfix">
                             <img src="assets/img/news-4.jpg" alt="">
-                            <h4><a href="#">Laborum corporis quo dara net para</a></h4>
-                            <p>Qui enim quia optio. Eligendi aut asperiores enim repellendusvel rerum cuder...</p>
+                            <h4><a href="#">Chính sách giao hàng mới</a></h4>
+                            <p>Từ 1/12/2024, miễn phí giao hàng cho đơn trên 300,000 VNĐ trong nội thành và áp dụng mức phí mới cho khu vực ngoại thành.</p>
                         </div>
 
                         <div class="post-item clearfix">
                             <img src="assets/img/news-5.jpg" alt="">
-                            <h4><a href="#">Et dolores corrupti quae illo quod dolor</a></h4>
-                            <p>Odit ut eveniet modi reiciendis. Atque cupiditate libero beatae dignissimos eius...</p>
+                            <h4><a href="#">Tin tức về an toàn thực phẩm</a></h4>
+                            <p>"Bí quyết chọn rau sạch an toàn" - bài viết hướng dẫn khách hàng cách phân biệt rau hữu cơ với rau thường.</p>
                         </div>
 
                     </div><!-- End sidebar recent posts-->
