@@ -81,6 +81,7 @@
                                                 <span class="input-group-text" id="inputGroupPrepend"></span>
                                                 @* <input type="text" name="username" class="form-control" id="yourUsername" required> *@
                                                 @Html.TextBoxFor(x=>x.TenTaiKhoan,new{@class="form-control",required="required",autofocus="autofocus"})
+                                                @Html.ValidationMessageFor(x => x.TenTaiKhoan, "", new { @class = "text-danger" })
                                                 <div class="invalid-feedback">Please enter your username.</div>
                                             </div>
                                         </div>
@@ -88,13 +89,14 @@
                                         <div class="col-12">
                                             <label for="yourPassword" class="form-label">Mật khẩu</label>
                                             @Html.TextBoxFor(x=>x.MatKhau,new{@class="form-control",required="required",type="password"})
+                                            @Html.ValidationMessageFor(x => x.MatKhau, "", new { @class = "text-danger" })
                                             @*  <input type="password" name="password" class="form-control" id="yourPassword" required> *@
                                             <div class="invalid-feedback">Please enter your password!</div>
                                         </div>
 
                                         <div class="col-12">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" name="remember" value="true" id="rememberMe">
+                                                <input class="form-check-input" type="checkbox" name="remember" value="true" id="rememberMe" name="RememberMe">
                                                 <label class="form-check-label" for="rememberMe">Ghi nhớ cho lần sau</label>
                                             </div>
                                         </div>

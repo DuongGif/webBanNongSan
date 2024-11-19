@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using TestTemplate.Models;
 
 public partial class TaiKhoan
@@ -9,9 +10,11 @@ public partial class TaiKhoan
 
     public string MaKieuTaiKhoan { get; set; } = "KT02"; // Mặc định là KT02
 
+   
     public string? TenTaiKhoan { get; set; }
-
+   
     public string? MatKhau { get; set; }
+
 
     public DateTime NgayTao { get; set; } = DateTime.Now; // Mặc định là ngày hiện tại
 

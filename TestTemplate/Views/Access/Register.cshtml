@@ -41,24 +41,28 @@
                                         <div class="col-12">
                                             <label for="MaTaiKhoan" class="form-label">Mã Tài Khoản</label>
                                             @Html.TextBoxFor(x => x.MaTaiKhoan, new { @class = "form-control", required = "required" })
+                                            @Html.ValidationMessageFor(x => x.MaTaiKhoan, "", new { @class = "text-danger" })
                                             <div class="invalid-feedback">Vui lòng nhập mã tài khoản.</div>
                                         </div>
 
                                         <div class="col-12">
                                             <label for="TenTaiKhoan" class="form-label">Tên Tài Khoản</label>
                                             @Html.TextBoxFor(x => x.TenTaiKhoan, new { @class = "form-control", required = "required", autofocus = "autofocus" })
+                                            @Html.ValidationMessageFor(x => x.TenTaiKhoan, "", new { @class = "text-danger" })
                                             <div class="invalid-feedback">Vui lòng nhập tên tài khoản.</div>
                                         </div>
 
                                         <div class="col-12">
                                             <label for="MatKhau" class="form-label">Mật khẩu</label>
                                             @Html.PasswordFor(x => x.MatKhau, new { @class = "form-control", required = "required" })
+                                            @Html.ValidationMessageFor(x => x.MatKhau, "", new { @class = "text-danger" })
                                             <div class="invalid-feedback">Vui lòng nhập mật khẩu!</div>
                                         </div>
 
                                         <div class="col-12">
                                             <label for="ConfirmMatKhau" class="form-label">Xác nhận mật khẩu</label>
                                             @Html.PasswordFor(x => x.ConfirmMatKhau, new { @class = "form-control", required = "required" })
+                                            @Html.ValidationMessageFor(x => x.ConfirmMatKhau, "", new { @class = "text-danger" })
                                             <div class="invalid-feedback">Vui lòng xác nhận mật khẩu!</div>
                                         </div>
 
@@ -67,6 +71,7 @@
                                             @if (ViewBag.KhachHangs != null && ((List<TestTemplate.Models.KhachHang>)ViewBag.KhachHangs).Any())
                                             {
                                                 @Html.DropDownListFor(x => x.MaKhachHang, new SelectList((List<TestTemplate.Models.KhachHang>)ViewBag.KhachHangs, "MaKhachHang", "TenKhachHang"), "- Chọn khách hàng -", new { @class = "form-control", required = "required" })
+                                                @Html.ValidationMessageFor(x => x.MaKhachHang, "", new { @class = "text-danger" })
                                             }
                                             else
                                             {
