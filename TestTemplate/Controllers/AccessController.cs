@@ -51,7 +51,7 @@ namespace TestTemplate.Controllers
         }
 
         [HttpPost]
-        public IActionResult Login(TaiKhoan user, string RememberMe)
+        public IActionResult Login(TaiKhoan user, bool RememberMe)
         {
             /*if (HttpContext.Session.GetString("UserName") == null)
             {
@@ -83,7 +83,7 @@ namespace TestTemplate.Controllers
                         HttpContext.Session.SetString("UserName", u.TenTaiKhoan.ToString());
 
                         // Nếu RememberMe được chọn, tạo cookie
-                        
+                        if (RememberMe) {
                             var cookieOptions = new CookieOptions
                             {
                                 Expires = DateTime.Now.AddDays(7), // Đặt cookie hết hạn sau 7 ngày
@@ -94,6 +94,9 @@ namespace TestTemplate.Controllers
                             };
                             // Lưu tên tài khoản vào cookie
                             Response.Cookies.Append("UserName", u.TenTaiKhoan, cookieOptions);
+
+                        }
+                           
                         
                         if (u.TenTaiKhoan == "admin")
                         {
